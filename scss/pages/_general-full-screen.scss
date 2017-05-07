@@ -22,7 +22,7 @@
       position: absolute;
       content: '';
       top: 0;
-      right: -10%;
+      right: -15%;
       bottom: 0;
       left: 0;
       background: $c-white;
@@ -36,5 +36,19 @@
     background: $c-purple url("../images/page-full-screen/bg-col-right.png") no-repeat bottom center;
     background-size: 100%;
     background-position-x: 50px;
+  }
+}
+@include media-breakpoint-down(lg) {
+  .page-full-screen {
+    .col-left,
+    .col-right {
+      max-width: 100%;
+      min-height: 0;
+    }
+    .col-left {
+      &:before {
+        display: none;
+      }
+    }
   }
 }

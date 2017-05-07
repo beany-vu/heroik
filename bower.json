@@ -26,12 +26,6 @@
         "css/font-awesome.min.css"
       ]
     },
-    "bootstrap": {
-      "main": [
-        "dist/css/bootstrap.css",
-        "dist/js/bootstrap.js"
-      ]
-    },
     "pushy" : {
       "main" : [
         "css/pushy.css",
