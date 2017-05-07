@@ -1,0 +1,19 @@
+progress {
+  width: 250px;
+  background: #fff;
+  border-radius: 80px;
+}
+progress[value]::-webkit-progress-bar {
+  border-radius: 50px;
+  height: 20px;
+  box-shadow: none;
+  background: #E6E6E6;
+}
+progress[value]::-webkit-progress-value {
+  border-radius: 50px 0 0 50px;
+  -moz-transform: skew(-15deg, 0);
+  -ms-transform: skew(-15deg, 0);
+  -o-transform: skew(-15deg, 0);
+  transform: skew(-15deg, 0);
+  background: #4BE2A1;
+}

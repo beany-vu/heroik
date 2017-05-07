@@ -1,0 +1,20 @@
+.btn {
+  -webkit-border-radius: 100px;
+  -moz-border-radius: 100px;
+  border-radius: 100px;
+  font-size: 21px;
+  color: $c-white;
+  font-family: Circular;
+  font-weight: 500;
+  border: 0;
+  cursor: pointer;
+}
+
+.btn-purple {
+  background: $c-purple;
+}
+
+.btn-grey {
+  background: $c-grey;
+}
+
