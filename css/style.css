@@ -225,6 +225,8 @@ progress[value]::-webkit-progress-value {
 
 .page-full-screen .col-right {
   max-width: 75%;
-  background: #8b4de5; }
+  background: #8b4de5 url("../images/page-full-screen/bg-col-right.png") no-repeat bottom center;
+  background-size: 100%;
+  background-position-x: 50px; }
 
 /*# sourceMappingURL=style.css.map */

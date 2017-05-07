@@ -33,6 +33,8 @@
   } // end .col-left
   .col-right {
     max-width: 75%;
-    background: $c-purple;
+    background: $c-purple url("../images/page-full-screen/bg-col-right.png") no-repeat bottom center;
+    background-size: 100%;
+    background-position-x: 50px;
   }
 }
