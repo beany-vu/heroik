@@ -6121,8 +6121,11 @@ select {
   font-weight: 500;
   border: 0;
   cursor: pointer;
-  min-width: 160px;
-  margin-bottom: 15px; }
+  margin-bottom: 15px;
+  text-transform: uppercase; }
+
+.btn-lg, .btn-group-lg > .btn {
+  min-width: 160px; }
 
 .btn + .btn {
   margin-left: 15px; }
@@ -6132,6 +6135,11 @@ select {
 
 .btn-grey {
   background: #A4A7BF; }
+
+.btn-inverted {
+  color: #48426A;
+  font-size: 14px;
+  background: rgba(255, 255, 255, 0.56); }
 
 progress {
   width: 250px;
@@ -6392,5 +6400,42 @@ progress[value]::-webkit-progress-value {
       margin: 0; }
     .page-business .block-featured-list .item .item-description {
       margin-bottom: 25px; } }
+
+.page-color .col-right .block-featured-list {
+  margin: auto;
+  padding: 0; }
+  .page-color .col-right .block-featured-list .item .img-wrapper {
+    width: 200px;
+    height: 200px;
+    margin: auto;
+    margin-bottom: 30px; }
+    .page-color .col-right .block-featured-list .item .img-wrapper img {
+      width: 100%; }
+  .page-color .col-right .block-featured-list .item .item-content {
+    text-align: center; }
+    .page-color .col-right .block-featured-list .item .item-content .summary,
+    .page-color .col-right .block-featured-list .item .item-content .item-heading,
+    .page-color .col-right .block-featured-list .item .item-content .item-description {
+      color: #fff;
+      text-align: center; }
+    .page-color .col-right .block-featured-list .item .item-content .summary {
+      margin-bottom: 0;
+      font-size: 9px;
+      color: #fff;
+      font-family: Lato;
+      font-style: italic; }
+    .page-color .col-right .block-featured-list .item .item-content .item-heading {
+      font-size: 17px;
+      font-family: Circular; }
+    .page-color .col-right .block-featured-list .item .item-content .item-description {
+      margin-bottom: 30px;
+      max-width: 700px; }
+      .page-color .col-right .block-featured-list .item .item-content .item-description img {
+        display: block;
+        height: 25px;
+        margin: auto;
+        margin-bottom: 30px; }
+  .page-color .col-right .block-featured-list .item .item-action {
+    text-align: center; }
 
 /*# sourceMappingURL=style.css.map */
