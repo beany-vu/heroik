@@ -6058,42 +6058,42 @@ select {
 @font-face {
   font-family: 'Circular';
   src: url("Circular-Black.eot");
-  src: local("Circular Black"), local("Circular-Black"), url("Circular-Black.eot?#iefix") format("embedded-opentype"), url("Circular-Black.woff2") format("woff2"), url("Circular-Black.woff") format("woff"), url("Circular-Black.ttf") format("truetype"), url("Circular-Black.svg#Circular-Black") format("svg");
+  src: local("Circular Black"), local("Circular-Black"), url("../fonts/Circular/Circular-Bold-Black.eot?#iefix") format("embedded-opentype"), url("../fonts/Circular/Circular-Bold-Black.woff2") format("woff2"), url("../fonts/Circular/Circular-Bold-Black.woff") format("woff"), url("../fonts/Circular/Circular-Bold-Black.ttf") format("truetype"), url("../fonts/Circular/Circular-Bold-Black.svg#Circular-Black") format("svg");
   font-weight: 900;
   font-style: normal; }
 
 @font-face {
   font-family: 'Circular';
   src: url("Circular-BlackItalic.eot");
-  src: local("Circular Black Italic"), local("Circular-BlackItalic"), url("Circular-BlackItalic.eot?#iefix") format("embedded-opentype"), url("Circular-BlackItalic.woff2") format("woff2"), url("Circular-BlackItalic.woff") format("woff"), url("Circular-BlackItalic.ttf") format("truetype"), url("Circular-BlackItalic.svg#Circular-BlackItalic") format("svg");
+  src: local("Circular Black Italic"), local("Circular-BlackItalic"), url("../fonts/Circular/Circular-Bold-BlackItalic.eot?#iefix") format("embedded-opentype"), url("../fonts/Circular/Circular-Bold-BlackItalic.woff2") format("woff2"), url("../fonts/Circular/Circular-Bold-BlackItalic.woff") format("woff"), url("../fonts/Circular/Circular-Bold-BlackItalic.ttf") format("truetype"), url("../fonts/Circular/Circular-Bold-BlackItalic.svg#Circular-BlackItalic") format("svg");
   font-weight: 900;
   font-style: italic; }
 
 @font-face {
   font-family: 'Circular';
   src: url("Circular-BoldItalic.eot");
-  src: local("Circular Bold Italic"), local("Circular-BoldItalic"), url("Circular-BoldItalic.eot?#iefix") format("embedded-opentype"), url("Circular-BoldItalic.woff2") format("woff2"), url("Circular-BoldItalic.woff") format("woff"), url("Circular-BoldItalic.ttf") format("truetype"), url("Circular-BoldItalic.svg#Circular-BoldItalic") format("svg");
+  src: local("Circular Bold Italic"), local("Circular-BoldItalic"), url("../fonts/Circular/Circular-Bold-BoldItalic.eot?#iefix") format("embedded-opentype"), url("../fonts/Circular/Circular-Bold-BoldItalic.woff2") format("woff2"), url("../fonts/Circular/Circular-Bold-BoldItalic.woff") format("woff"), url("../fonts/Circular/Circular-Bold-BoldItalic.ttf") format("truetype"), url("../fonts/Circular/Circular-Bold-BoldItalic.svg#Circular-BoldItalic") format("svg");
   font-weight: bold;
   font-style: italic; }
 
 @font-face {
   font-family: 'Circular';
   src: url("Circular-Medium.eot");
-  src: local("Circular Medium"), local("Circular-Medium"), url("Circular-Medium.eot?#iefix") format("embedded-opentype"), url("Circular-Medium.woff2") format("woff2"), url("Circular-Medium.woff") format("woff"), url("Circular-Medium.ttf") format("truetype"), url("Circular-Medium.svg#Circular-Medium") format("svg");
+  src: local("Circular Medium"), local("Circular-Medium"), url("../fonts/Circular/Circular-Bold-Medium.eot?#iefix") format("embedded-opentype"), url("../fonts/Circular/Circular-Bold-Medium.woff2") format("woff2"), url("../fonts/Circular/Circular-Bold-Medium.woff") format("woff"), url("../fonts/Circular/Circular-Bold-Medium.ttf") format("truetype"), url("../fonts/Circular/Circular-Bold-Medium.svg#Circular-Medium") format("svg");
   font-weight: 500;
   font-style: normal; }
 
 @font-face {
   font-family: 'Circular';
   src: url("Circular-MediumItalic.eot");
-  src: local("Circular Medium Italic"), local("Circular-MediumItalic"), url("Circular-MediumItalic.eot?#iefix") format("embedded-opentype"), url("Circular-MediumItalic.woff2") format("woff2"), url("Circular-MediumItalic.woff") format("woff"), url("Circular-MediumItalic.ttf") format("truetype"), url("Circular-MediumItalic.svg#Circular-MediumItalic") format("svg");
+  src: local("Circular Medium Italic"), local("Circular-MediumItalic"), url("../fonts/Circular/Circular-Bold-MediumItalic.eot?#iefix") format("embedded-opentype"), url("../fonts/Circular/Circular-Bold-MediumItalic.woff2") format("woff2"), url("../fonts/Circular/Circular-Bold-MediumItalic.woff") format("woff"), url("../fonts/Circular/Circular-Bold-MediumItalic.ttf") format("truetype"), url("../fonts/Circular/Circular-Bold-MediumItalic.svg#Circular-MediumItalic") format("svg");
   font-weight: 500;
   font-style: italic; }
 
 @font-face {
   font-family: 'Circular';
   src: url("Circular-Bold.eot");
-  src: local("Circular Bold"), local("Circular-Bold"), url("Circular-Bold.eot?#iefix") format("embedded-opentype"), url("Circular-Bold.woff2") format("woff2"), url("Circular-Bold.woff") format("woff"), url("Circular-Bold.ttf") format("truetype"), url("Circular-Bold.svg#Circular-Bold") format("svg");
+  src: local("Circular Bold"), local("Circular-Bold"), url("../fonts/Circular/Circular-Bold-Bold.eot?#iefix") format("embedded-opentype"), url("../fonts/Circular/Circular-Bold-Bold.woff2") format("woff2"), url("../fonts/Circular/Circular-Bold-Bold.woff") format("woff"), url("../fonts/Circular/Circular-Bold-Bold.ttf") format("truetype"), url("../fonts/Circular/Circular-Bold-Bold.svg#Circular-Bold") format("svg");
   font-weight: bold;
   font-style: normal; }
 
@@ -6140,6 +6140,17 @@ select {
   color: #48426A;
   font-size: 14px;
   background: rgba(255, 255, 255, 0.56); }
+
+.less-radius {
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  border-radius: 5px; }
+
+.btn-inverted {
+  background: rgba(56, 49, 77, 0.42);
+  font-size: 22px;
+  color: #fff;
+  font-weight: 900; }
 
 progress {
   width: 250px;
@@ -6241,7 +6252,8 @@ progress[value]::-webkit-progress-value {
   max-width: 75%;
   background: #8b4de5 url("../images/page-full-screen/bg-col-right.png") no-repeat bottom center;
   background-size: 100%;
-  background-position-x: 50px; }
+  background-position-x: 50px;
+  font-family: Lato; }
 
 @media (max-width: 1199px) {
   .page-full-screen .col-left,
@@ -6437,5 +6449,41 @@ progress[value]::-webkit-progress-value {
         margin-bottom: 30px; }
   .page-color .col-right .block-featured-list .item .item-action {
     text-align: center; }
+
+.page-type .col-right {
+  flex-direction: column;
+  -webkit-flex-direction: column; }
+  .page-type .col-right .block-featured-list,
+  .page-type .col-right .block-slider {
+    padding: 0;
+    margin: auto;
+    max-width: 900px; }
+  .page-type .col-right .block-featured-list {
+    font-family: Roboto; }
+    .page-type .col-right .block-featured-list .block-heading {
+      color: #fff;
+      font-size: 83px;
+      font-weight: 700;
+      line-height: 1; }
+    .page-type .col-right .block-featured-list .block-content {
+      font-size: 17px;
+      color: #fff;
+      font-weight: 400; }
+  .page-type .col-right .block-slider {
+    font-family: Roboto;
+    text-align: center; }
+    .page-type .col-right .block-slider .item .summary {
+      margin-bottom: 0;
+      font-size: 9px;
+      color: #fff;
+      font-family: Lato;
+      font-style: italic; }
+    .page-type .col-right .block-slider .item .item-heading {
+      font-size: 17px;
+      color: #fff; }
+    .page-type .col-right .block-slider .item .item-description {
+      margin-bottom: 30px;
+      font-size: 16px;
+      color: #fff; }
 
 /*# sourceMappingURL=style.css.map */

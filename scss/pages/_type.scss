@@ -1,0 +1,48 @@
+.page-type {
+  .col-right {
+    flex-direction: column;
+    -webkit-flex-direction: column;
+    .block-featured-list,
+    .block-slider {
+      padding: 0;
+      margin: auto;
+      max-width: 900px;
+    }
+    .block-featured-list {
+      font-family: Roboto;
+      .block-heading {
+        color: #fff;
+        font-size: 83px;
+        font-weight: 700;
+        line-height: 1;
+      }
+      .block-content {
+        font-size: 17px;
+        color: #fff;
+        font-weight: 400;
+      }
+    }
+    .block-slider {
+      font-family: Roboto;
+      text-align: center;
+      .item {
+        .summary {
+          margin-bottom: 0;
+          font-size: 9px;
+          color: #fff;
+          font-family: Lato;
+          font-style: italic;
+        }
+        .item-heading {
+          font-size: 17px;
+          color: #fff;
+        }
+        .item-description {
+          margin-bottom: 30px;
+          font-size: 16px;
+          color: #fff;
+        }
+      }
+    }
+  }
+}

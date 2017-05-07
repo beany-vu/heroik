@@ -41,6 +41,7 @@
     background: $c-purple url("../images/page-full-screen/bg-col-right.png") no-repeat bottom center;
     background-size: 100%;
     background-position-x: 50px;
+    font-family: Lato;
   }
 }
 @include media-breakpoint-down(lg) {

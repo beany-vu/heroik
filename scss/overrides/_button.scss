@@ -31,3 +31,14 @@
   background: rgba(255, 255, 255, .56);
 }
 
+.less-radius {
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  border-radius: 5px;
+}
+.btn-inverted {
+  background: rgba(56, 49, 77, .42);
+  font-size: 22px;
+  color: #fff;
+  font-weight: 900;
+}
