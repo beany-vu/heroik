@@ -46,3 +46,19 @@
     }
   }
 }
+@include media-breakpoint-down(sm) {
+  .page-type {
+    .col-right {
+      .block-featured-list {
+        .block-heading {
+          font-size: 33px;
+        }
+        .block-action {
+          .btn {
+            font-size: 18px;
+          }
+        }
+      }
+    }
+  }
+}
