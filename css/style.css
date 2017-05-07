@@ -6307,4 +6307,12 @@ progress[value]::-webkit-progress-value {
   .page-index .block-featured-list .item .txt {
     margin: 10px 0 40px; } }
 
+@media (max-width: 991px) {
+  .page-index .block-featured-list .item .img-wrapper {
+    width: 150px;
+    height: 150px;
+    line-height: 150px; }
+  .page-index .block-featured-list .item .txt {
+    margin: 10px 0 40px; } }
+
 /*# sourceMappingURL=style.css.map */
