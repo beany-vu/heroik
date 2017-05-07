@@ -33,7 +33,7 @@
         .item-heading {
           flex: 1;
           -webkit-flex: 1;
-          padding: 0 15px;
+          padding: 15px;
           .txt-sm {
             font-size: 18px;
             margin-bottom: 0;
@@ -44,7 +44,7 @@
           }
         }
         .item-action {
-          padding: 0 15px;
+          padding: 15px;
           .btn {
             margin: 0 0;
           }
@@ -57,6 +57,23 @@
           align-items: center;
           img {
             width: 110px;
+          }
+        }
+      }
+    }
+  }
+}
+@include media-breakpoint-down(sm) {
+  .page-yay {
+    .col-right {
+      .block-featured-list {
+        .item {
+          flex-direction: column;
+          -webkit-flex-direction: column;
+          .item-thumb {
+            img {
+              padding: 15px;
+            }
           }
         }
       }

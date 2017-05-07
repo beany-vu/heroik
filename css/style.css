@@ -6523,7 +6523,7 @@ progress[value]::-webkit-progress-value {
     .page-yay .col-right .block-featured-list .item .item-heading {
       flex: 1;
       -webkit-flex: 1;
-      padding: 0 15px; }
+      padding: 15px; }
       .page-yay .col-right .block-featured-list .item .item-heading .txt-sm {
         font-size: 18px;
         margin-bottom: 0; }
@@ -6531,7 +6531,7 @@ progress[value]::-webkit-progress-value {
         font-size: 28px;
         margin-bottom: 0; }
     .page-yay .col-right .block-featured-list .item .item-action {
-      padding: 0 15px; }
+      padding: 15px; }
       .page-yay .col-right .block-featured-list .item .item-action .btn {
         margin: 0 0; }
     .page-yay .col-right .block-featured-list .item .item-thumb {
@@ -6542,5 +6542,12 @@ progress[value]::-webkit-progress-value {
       align-items: center; }
       .page-yay .col-right .block-featured-list .item .item-thumb img {
         width: 110px; }
+
+@media (max-width: 767px) {
+  .page-yay .col-right .block-featured-list .item {
+    flex-direction: column;
+    -webkit-flex-direction: column; }
+    .page-yay .col-right .block-featured-list .item .item-thumb img {
+      padding: 15px; } }
 
 /*# sourceMappingURL=style.css.map */
