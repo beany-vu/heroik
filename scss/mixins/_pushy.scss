@@ -1,0 +1,39 @@
+@mixin pushyLayout($menuWidth: 310px) {
+  .pushy {
+    width: $menuWidth;
+    background: #1f3449;
+  }
+  .pushy-left{
+    -webkit-transform: translate3d(-$menuWidth,0,0);
+    -moz-transform: translate3d(-$menuWidth,0,0);
+    -ms-transform: translate3d(-$menuWidth,0,0);
+    -o-transform: translate3d(-$menuWidth,0,0);
+    transform: translate3d(-$menuWidth,0,0);
+  }
+
+  .pushy-open-left #container,
+  .pushy-open-left .push {
+    -webkit-transform: translate3d($menuWidth, 0, 0);
+    -moz-transform: translate3d($menuWidth, 0, 0);
+    -ms-transform: translate3d($menuWidth, 0, 0);
+    -o-transform: translate3d($menuWidth, 0, 0);
+    transform: translate3d($menuWidth, 0, 0);
+  }
+
+  .pushy-right {
+    -webkit-transform: translate3d($menuWidth, 0, 0);
+    -moz-transform: translate3d($menuWidth, 0, 0);
+    -ms-transform: translate3d($menuWidth, 0, 0);
+    -o-transform: translate3d($menuWidth, 0, 0);
+    transform: translate3d($menuWidth, 0, 0);
+  }
+
+  .pushy-open-right #container,
+  .pushy-open-right .push {
+    -webkit-transform: translate3d(-$menuWidth, 0, 0);
+    -moz-transform: translate3d(-$menuWidth, 0, 0);
+    -ms-transform: translate3d(-$menuWidth, 0, 0);
+    -o-transform: translate3d(-$menuWidth, 0, 0);
+    transform: translate3d(-$menuWidth, 0, 0);
+  }
+}

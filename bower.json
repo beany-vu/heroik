@@ -1,0 +1,42 @@
+{
+  "name": "heroik",
+  "description": "",
+  "main": "index.js",
+  "authors": [
+    "beany <vuhoang.hanu@gmail.com>"
+  ],
+  "license": "ISC",
+  "homepage": "",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "jquery": "^1",
+    "bootstrap": "^4",
+    "font-awesome": "fontawesome#^4.7.0",
+    "pushy": "^1.1.0"
+  },
+  "overrides": {
+    "font-awesome": {
+      "main": [
+        "css/font-awesome.min.css"
+      ]
+    },
+    "bootstrap": {
+      "main": [
+        "dist/css/bootstrap.css",
+        "dist/js/bootstrap.js"
+      ]
+    },
+    "pushy" : {
+      "main" : [
+        "css/pushy.css",
+        "js/pushy.js"
+      ]
+    }
+  }
+}
