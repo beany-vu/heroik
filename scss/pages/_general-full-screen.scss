@@ -1,0 +1,38 @@
+.page-full-screen {
+  .col-left,
+  .col-right {
+    position: relative;
+    padding: $padding-lg;
+    width: 100%;
+    min-height: 100vh;
+    float: left;
+    &:after {
+      @include clearfix;
+    }
+  }
+  .col-left {
+    padding-right: 0;
+    display: -webkit-flex; /* Safari */
+    display: flex;
+    -webkit-flex-direction: column; /* Safari */
+    flex-direction:         column;
+    max-width: 25%; // = (450px * 100%) / 1800px
+    z-index: 1;
+    &:before {
+      position: absolute;
+      content: '';
+      top: 0;
+      right: -10%;
+      bottom: 0;
+      left: 0;
+      background: $c-white;
+      display: block;
+      transform: skew(-5deg, 0deg);
+      z-index: -1;
+    }
+  } // end .col-left
+  .col-right {
+    max-width: 75%;
+    background: $c-purple;
+  }
+}
