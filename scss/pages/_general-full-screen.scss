@@ -50,12 +50,18 @@
       padding-right: $padding-md;
       flex-direction: row;
       -webkit-flex-direction: row;
+      box-shadow: 0 10px 32px 0 rgba(0,0,0,0.34);
+      -webkit-box-shadow: 0 10px 32px 0 rgba(0,0,0,0.34);
       &:before {
         display: none;
       }
       .block-logo {
         width: 40%;
+        padding: $padding-md;
       }
+    }
+    .col-right {
+      padding-top: 85px;
     }
   }
 }

@@ -61,3 +61,19 @@
     }
   }
 }
+@include media-breakpoint-down(lg) {
+  .page-index {
+    .block-featured-list {
+      .item {
+        .img-wrapper {
+          width: 250px;
+          height: 250px;
+          line-height: 250px;
+        }
+        .txt {
+          margin : 10px 0 40px;
+        }
+      }
+    }
+  }
+}
