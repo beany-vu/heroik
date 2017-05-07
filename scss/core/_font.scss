@@ -79,7 +79,7 @@
 }
 
 @font-face {
-  font-family: 'Circular Book';
+  font-family: 'Circular';
   src: url('../fonts/Circular/Circular-Book.eot');
   src: local('Circular Book'), local('Circular-Book'),
   url('../fonts/Circular/Circular-Book.eot?#iefix') format('embedded-opentype'),
@@ -87,12 +87,12 @@
   url('../fonts/Circular/Circular-Book.woff') format('woff'),
   url('../fonts/Circular/Circular-Book.ttf') format('truetype'),
   url('../fonts/Circular/Circular-Book.svg#Circular-Book') format('svg');
-  font-weight: normal;
+  font-weight: 300;
   font-style: normal;
 }
 
 @font-face {
-  font-family: 'Circular Book';
+  font-family: 'Circular';
   src: url('../fonts/Circular/Circular-BookItalic.eot');
   src: local('Circular Book Italic'), local('Circular-BookItalic'),
   url('../fonts/Circular/Circular-BookItalic.eot?#iefix') format('embedded-opentype'),
@@ -100,6 +100,6 @@
   url('../fonts/Circular/Circular-BookItalic.woff') format('woff'),
   url('../fonts/Circular/Circular-BookItalic.ttf') format('truetype'),
   url('../fonts/Circular/Circular-BookItalic.svg#Circular-BookItalic') format('svg');
-  font-weight: normal;
+  font-weight: 300;
   font-style: italic;
 }

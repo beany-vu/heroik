@@ -31,3 +31,11 @@
     line-height: 27px;
   }
 }
+
+@include media-breakpoint-down(lg) {
+  .block-hero {
+    .block-content {
+      padding: 15px 0;
+    }
+  }
+}

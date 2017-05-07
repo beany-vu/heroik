@@ -44,10 +44,17 @@
     .col-right {
       max-width: 100%;
       min-height: 0;
+      padding: $padding-md;
     }
     .col-left {
+      padding-right: $padding-md;
+      flex-direction: row;
+      -webkit-flex-direction: row;
       &:before {
         display: none;
+      }
+      .block-logo {
+        width: 40%;
       }
     }
   }

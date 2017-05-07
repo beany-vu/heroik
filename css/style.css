@@ -6098,17 +6098,17 @@ select {
   font-style: normal; }
 
 @font-face {
-  font-family: 'Circular Book';
+  font-family: 'Circular';
   src: url("../fonts/Circular/Circular-Book.eot");
   src: local("Circular Book"), local("Circular-Book"), url("../fonts/Circular/Circular-Book.eot?#iefix") format("embedded-opentype"), url("../fonts/Circular/Circular-Book.woff2") format("woff2"), url("../fonts/Circular/Circular-Book.woff") format("woff"), url("../fonts/Circular/Circular-Book.ttf") format("truetype"), url("../fonts/Circular/Circular-Book.svg#Circular-Book") format("svg");
-  font-weight: normal;
+  font-weight: 300;
   font-style: normal; }
 
 @font-face {
-  font-family: 'Circular Book';
+  font-family: 'Circular';
   src: url("../fonts/Circular/Circular-BookItalic.eot");
   src: local("Circular Book Italic"), local("Circular-BookItalic"), url("../fonts/Circular/Circular-BookItalic.eot?#iefix") format("embedded-opentype"), url("../fonts/Circular/Circular-BookItalic.woff2") format("woff2"), url("../fonts/Circular/Circular-BookItalic.woff") format("woff"), url("../fonts/Circular/Circular-BookItalic.ttf") format("truetype"), url("../fonts/Circular/Circular-BookItalic.svg#Circular-BookItalic") format("svg");
-  font-weight: normal;
+  font-weight: 300;
   font-style: italic; }
 
 .btn {
@@ -6177,6 +6177,10 @@ progress[value]::-webkit-progress-value {
     letter-spacing: 0.04px;
     line-height: 27px; }
 
+@media (max-width: 1199px) {
+  .block-hero .block-content {
+    padding: 15px 0; } }
+
 .page-full-screen .col-left,
 .page-full-screen .col-right {
   position: relative;
@@ -6222,9 +6226,16 @@ progress[value]::-webkit-progress-value {
   .page-full-screen .col-left,
   .page-full-screen .col-right {
     max-width: 100%;
-    min-height: 0; }
-  .page-full-screen .col-left:before {
-    display: none; } }
+    min-height: 0;
+    padding: 20px; }
+  .page-full-screen .col-left {
+    padding-right: 20px;
+    flex-direction: row;
+    -webkit-flex-direction: row; }
+    .page-full-screen .col-left:before {
+      display: none; }
+    .page-full-screen .col-left .block-logo {
+      width: 40%; } }
 
 .page-index .col-right {
   flex: 1;
@@ -6233,13 +6244,17 @@ progress[value]::-webkit-progress-value {
   align-items: center; }
 
 .page-index .block-featured-list {
-  margin-bottom: 0; }
+  max-width: 980px;
+  margin: auto;
+  padding-left: 0; }
   .page-index .block-featured-list .item {
     display: inline-block;
     marign-bottom: 20px; }
+    .page-index .block-featured-list .item:hover .img-wrapper {
+      border: 2px solid #fff; }
     .page-index .block-featured-list .item .img-wrapper {
       margin: auto;
-      border: 1px solid #fff;
+      border: 2px solid rgba(181, 142, 255, 0.39);
       -webkit-border-radius: 50%;
       -moz-border-radius: 50%;
       border-radius: 50%;
@@ -6247,23 +6262,24 @@ progress[value]::-webkit-progress-value {
       height: 150px;
       line-height: 150px;
       text-align: center;
-      vertical-align: middle; }
+      vertical-align: middle;
+      background: rgba(181, 142, 255, 0.39); }
       .page-index .block-featured-list .item .img-wrapper img {
         width: 50%; }
     .page-index .block-featured-list .item .txt {
-      padding: 10px 0;
+      margin: 10px 0 20px;
       font-size: 23px;
       color: #fff;
-      font-family: Circular;
+      font-family: 'Circular';
+      font-weight: 300;
       text-align: center; }
 
 @media (min-width: 1600px) {
   .page-index .block-featured-list .item .img-wrapper {
-    width: 175px;
-    height: 175px;
-    line-height: 175px;
-    margin-bottom: 30px; }
+    width: 250px;
+    height: 250px;
+    line-height: 250px; }
   .page-index .block-featured-list .item .txt {
-    padding: 10px 0 30px; } }
+    margin: 10px 0 40px; } }
 
 /*# sourceMappingURL=style.css.map */
