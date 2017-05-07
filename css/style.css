@@ -6245,6 +6245,15 @@ progress[value]::-webkit-progress-value {
   .page-full-screen .col-right {
     padding-top: 85px; } }
 
+@media (max-width: 1199px) {
+  .page-full-screen .col-left {
+    flex-direction: column;
+    -webkit-flex-direction: column;
+    text-align: center; }
+    .page-full-screen .col-left .block-logo {
+      width: 100%;
+      padding: 20px 0; } }
+
 .page-index .col-right {
   flex: 1;
   -webkit-flex: 1;

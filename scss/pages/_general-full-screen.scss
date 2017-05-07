@@ -65,3 +65,17 @@
     }
   }
 }
+
+@include media-breakpoint-down(lg) {
+  .page-full-screen {
+    .col-left {
+      flex-direction: column;
+      -webkit-flex-direction: column;
+      text-align: center;
+      .block-logo {
+        width: 100%;
+        padding: $padding-md 0;
+      }
+    }
+  }
+}
