@@ -11,7 +11,7 @@
     }
   }
   .col-left {
-    padding: 70px 0 70px 70px;
+    padding: 15px 0px 15px 15px;
     display: -webkit-flex; /* Safari */
     display: flex;
     -webkit-flex-direction: column; /* Safari */
@@ -67,6 +67,14 @@
     }
     .col-right {
       padding-top: 85px;
+    }
+  }
+}
+
+@media (min-width: 1600px) {
+  .page-full-screen {
+    .col-left {
+      padding: 70px 0 70px 70px;
     }
   }
 }
