@@ -2,6 +2,7 @@
   .col-right {
     }
   .block-featured-list {
+    padding: 0;
     text-align: center;
     .item {
       padding: 40px 80px;
@@ -37,3 +38,12 @@
   }
 }
 
+@include media-breakpoint-down(lg) {
+  .page-business {
+    .block-featured-list {
+      .item {
+        padding: 15px;
+      }
+    }
+  }
+}

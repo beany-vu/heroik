@@ -6320,6 +6320,7 @@ progress[value]::-webkit-progress-value {
     margin: 10px 0 40px; } }
 
 .page-business .block-featured-list {
+  padding: 0;
   text-align: center; }
   .page-business .block-featured-list .item {
     padding: 40px 80px;
@@ -6345,5 +6346,9 @@ progress[value]::-webkit-progress-value {
       letter-spacing: -0.05px;
       margin-bottom: 130px;
       text-align: left; }
+
+@media (max-width: 1199px) {
+  .page-business .block-featured-list .item {
+    padding: 15px; } }
 
 /*# sourceMappingURL=style.css.map */
