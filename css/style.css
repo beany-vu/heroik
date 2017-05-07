@@ -6550,4 +6550,44 @@ progress[value]::-webkit-progress-value {
     .page-yay .col-right .block-featured-list .item .item-thumb img {
       padding: 15px; } }
 
+.page-complete {
+  min-height: 100vh;
+  flex: 1;
+  -webkit-flex: 1;
+  display: flex;
+  align-items: center;
+  padding: 15px;
+  width: 100%;
+  max-width: 100%;
+  background: #8b4de5;
+  background-size: 100%;
+  background-position-x: 50px;
+  font-family: Circular;
+  text-align: center; }
+  .page-complete * {
+    color: #fff; }
+  .page-complete .inner-wrapper {
+    width: 100%; }
+  .page-complete .status {
+    font-size: 35px;
+    font-weight: 700; }
+  .page-complete .txt {
+    font-size: 17px;
+    font-weight: 300;
+    margin-bottom: 30px; }
+  .page-complete progress {
+    background: #8b4de5; }
+    .page-complete progress progress[value]::-webkit-progress-bar {
+      border-radius: 50px;
+      height: 20px;
+      box-shadow: none;
+      background: #E6E6E6; }
+    .page-complete progress progress[value]::-webkit-progress-value {
+      border-radius: 50px 0 0 50px;
+      -moz-transform: skew(-10deg, 0);
+      -ms-transform: skew(-10deg, 0);
+      -o-transform: skew(-10deg, 0);
+      transform: skew(-10deg, 0);
+      background: #4BE2A1; }
+
 /*# sourceMappingURL=style.css.map */
