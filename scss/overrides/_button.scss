@@ -8,8 +8,13 @@
   font-weight: 500;
   border: 0;
   cursor: pointer;
+  min-width: 160px;
+  margin-bottom: 15px;
 }
 
+.btn+.btn {
+  margin-left: 15px;
+}
 .btn-purple {
   background: $c-purple;
 }
