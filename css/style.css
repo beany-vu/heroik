@@ -6025,7 +6025,7 @@ $mq-fixed-value: 1024;
   box-sizing: border-box; }
 
 html {
-  font-family: 'Lato', serif;
+  font-family: 'Circular', serif;
   font-size: 15px; }
 
 html * {
@@ -6225,6 +6225,11 @@ progress[value]::-webkit-progress-value {
     z-index: -1; }
 
 .page-full-screen .col-right {
+  flex: 1;
+  -webkit-flex: 1;
+  display: flex;
+  align-items: center;
+  padding-left: 140px;
   max-width: 75%;
   background: #8b4de5 url("../images/page-full-screen/bg-col-right.png") no-repeat bottom center;
   background-size: 100%;
@@ -6258,12 +6263,6 @@ progress[value]::-webkit-progress-value {
     .page-full-screen .col-left .block-logo {
       width: 100%;
       padding: 20px 0; } }
-
-.page-index .col-right {
-  flex: 1;
-  -webkit-flex: 1;
-  display: flex;
-  align-items: center; }
 
 .page-index .block-featured-list {
   max-width: 980px;
@@ -6319,5 +6318,32 @@ progress[value]::-webkit-progress-value {
     line-height: 150px; }
   .page-index .block-featured-list .item .txt {
     margin: 10px 0 40px; } }
+
+.page-business .block-featured-list {
+  text-align: center; }
+  .page-business .block-featured-list .item {
+    padding: 40px 80px;
+    border: 2px solid rgba(181, 142, 255, 0); }
+    .page-business .block-featured-list .item:hover {
+      border: 2px solid #fff;
+      background: rgba(181, 142, 255, 0.39);
+      border-radius: 7px; }
+    .page-business .block-featured-list .item .summary,
+    .page-business .block-featured-list .item .item-heading,
+    .page-business .block-featured-list .item .item-description {
+      color: #fff;
+      font-family: 'Circular'; }
+    .page-business .block-featured-list .item .img-wrapper {
+      margin-bottom: 80px; }
+    .page-business .block-featured-list .item .summary {
+      font-size: 17px; }
+    .page-business .block-featured-list .item .item-heading {
+      font-size: 48px; }
+    .page-business .block-featured-list .item .item-description {
+      font-size: 16px;
+      line-height: 200%;
+      letter-spacing: -0.05px;
+      margin-bottom: 130px;
+      text-align: left; }
 
 /*# sourceMappingURL=style.css.map */

@@ -1,0 +1,39 @@
+.page-business {
+  .col-right {
+    }
+  .block-featured-list {
+    text-align: center;
+    .item {
+      padding: 40px 80px;
+      border: 2px solid rgba(181,142,255,0);
+      &:hover {
+        border: 2px solid #fff;
+        background: rgba(181,142,255,0.39);
+        border-radius: 7px;
+      }
+      .summary,
+      .item-heading,
+      .item-description {
+        color: #fff;
+        font-family: 'Circular';
+      }
+      .img-wrapper {
+        margin-bottom: 80px;
+      }
+      .summary {
+        font-size: 17px;
+      }
+      .item-heading {
+        font-size: 48px;
+      }
+      .item-description {
+        font-size: 16px;
+        line-height: 200%;
+        letter-spacing: -0.05px;
+        margin-bottom: 130px;
+        text-align: left;
+      }
+    }
+  }
+}
+
