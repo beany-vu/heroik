@@ -6121,8 +6121,10 @@ select {
   font-weight: 500;
   border: 0;
   cursor: pointer;
-  margin-bottom: 15px;
-  text-transform: uppercase; }
+  margin-bottom: 15px; }
+
+.btn-wide {
+  padding: 10px 60px; }
 
 .btn-lg, .btn-group-lg > .btn {
   min-width: 160px; }
@@ -6677,5 +6679,210 @@ progress[value]::-webkit-progress-value {
         color: #fff; }
     .page-login-register .inner-wrapper form .new-user {
       font-weight: 500; }
+
+.page-price .txt-md {
+  margin-bottom: 30px;
+  font-family: Circular;
+  font-weight: 500;
+  font-size: 26px;
+  color: #A4A7BF;
+  letter-spacing: -1.1px;
+  line-height: 28px; }
+
+.page-price .txt-lg {
+  margin-bottom: 70px;
+  font-family: Circular;
+  font-weight: 700;
+  font-size: 58px;
+  color: #343146;
+  letter-spacing: -3px;
+  line-height: 60px; }
+
+.page-price .txt-sm {
+  margin-bottom: 150px;
+  font-family: Circular;
+  font-weight: 300;
+  font-size: 17px;
+  color: #000000;
+  letter-spacing: -0.4px;
+  line-height: 19px; }
+
+.page-price header {
+  padding: 70px 0; }
+  .page-price header nav {
+    text-align: right; }
+    .page-price header nav li {
+      list-style-type: none; }
+    .page-price header nav li.link {
+      font-size: 17px;
+      display: inline-block;
+      padding: 0 30px; }
+      .page-price header nav li.link.current a, .page-price header nav li.link:hover a {
+        text-decoration: none; }
+        .page-price header nav li.link.current a:after, .page-price header nav li.link:hover a:after {
+          content: "";
+          position: absolute;
+          bottom: 0;
+          left: 15px;
+          right: 15px;
+          height: 4px;
+          background: #7A34D1; }
+      .page-price header nav li.link a {
+        position: relative;
+        display: inline-block;
+        padding: 10px;
+        color: #343146;
+        font-family: Circular;
+        font-weight: 500; }
+    .page-price header nav li.btn {
+      margin-bottom: 0; }
+
+.page-price .block-price {
+  margin-bottom: 70px; }
+  .page-price .block-price .block-heading {
+    text-align: center; }
+  .page-price .block-price .block-content .table .block-purple {
+    background: #8b4de5; }
+    .page-price .block-price .block-content .table .block-purple * {
+      color: #fff !important; }
+  .page-price .block-price .block-content .table .block-first {
+    -webkit-border-radius: 6px 6px 0 0;
+    -moz-border-radius: 6px 6px 0 0;
+    border-radius: 6px 6px 0 0; }
+  .page-price .block-price .block-content .table .block-last {
+    -webkit-border-radius: 0 0 6px 6px;
+    -moz-border-radius: 0 0 6px 6px;
+    border-radius: 0 0 6px 6px; }
+  .page-price .block-price .block-content .table td {
+    border-top: 1px solid #D8D8D8; }
+  .page-price .block-price .block-content .table th {
+    background: #fff;
+    border-bottom: 1px solid #D8D8D8;
+    border-top: 0; }
+  .page-price .block-price .block-content .table thead p {
+    color: #000;
+    font-size: 17px;
+    font-family: Circular;
+    font-weight: 300; }
+  .page-price .block-price .block-content .table thead th {
+    width: 33.3%;
+    text-align: center; }
+    .page-price .block-price .block-content .table thead th img {
+      margin: 50px auto 30px; }
+  .page-price .block-price .block-content .table tbody {
+    font-weight: 300; }
+    .page-price .block-price .block-content .table tbody .txt-purple {
+      color: #8b4de5;
+      font-size: 20px; }
+    .page-price .block-price .block-content .table tbody td .wrapper {
+      display: table;
+      width: 100%; }
+      .page-price .block-price .block-content .table tbody td .wrapper > i {
+        padding-top: 15px; }
+      .page-price .block-price .block-content .table tbody td .wrapper > * {
+        display: table-cell;
+        padding: 10px;
+        vertical-align: top; }
+    .page-price .block-price .block-content .table tbody td span {
+      display: block;
+      margin-bottom: 10px; }
+    .page-price .block-price .block-content .table tbody td li {
+      margin-bottom: 10px; }
+    .page-price .block-price .block-content .table tbody td .price {
+      padding: 50px 0 20px;
+      text-align: center; }
+      .page-price .block-price .block-content .table tbody td .price .sign {
+        font-size: 36px;
+        opacity: 0.76;
+        color: purple; }
+      .page-price .block-price .block-content .table tbody td .price .number {
+        font-size: 83px;
+        color: purple;
+        line-height: 0.1; }
+      .page-price .block-price .block-content .table tbody td .price .time {
+        font-size: 13px;
+        font-weight: 700;
+        opacity: 0.75;
+        color: purple; }
+      .page-price .block-price .block-content .table tbody td .price span {
+        display: inline-block;
+        margin-bottom: 0; }
+    .page-price .block-price .block-content .table tbody td .note {
+      display: block;
+      font-family: Lato;
+      font-size: 14px;
+      color: #8b4de5; }
+  .page-price .block-price .block-content .table-striped tbody tr:nth-of-type(odd) {
+    background-color: rgba(216, 216, 216, 0.19); }
+  .page-price .block-price .block-content .table-striped tbody tr:last-child {
+    background-color: #fff; }
+
+.page-price .block-trial {
+  padding: 70px 15px 0; }
+  .page-price .block-trial .txt-lg,
+  .page-price .block-trial .txt-sm {
+    margin-bottom: 30px; }
+  .page-price .block-trial .col-left {
+    padding-top: 60px; }
+
+.page-price .block-faq .block-heading .txt-lg {
+  text-align: center;
+  font-size: 35px; }
+
+.page-price .block-faq .block-content .q-and-a {
+  margin-bottom: 40px; }
+
+.page-price .block-faq .block-content .question {
+  font-family: Circular;
+  font-weight: 500;
+  font-size: 21px;
+  color: #6502B1;
+  letter-spacing: -1px;
+  line-height: 25px; }
+
+.page-price .block-faq .block-content .answer {
+  font-family: Lato;
+  font-weight: 400;
+  font-size: 16px;
+  color: #4A4263;
+  letter-spacing: -0.05px;
+  line-height: 25px; }
+
+.page-price footer {
+  background: #231D35;
+  padding: 80px 15px 120px; }
+  .page-price footer .inner-wrapper {
+    width: 100%;
+    max-width: 900px;
+    padding: 0 15px;
+    margin: auto; }
+    .page-price footer .inner-wrapper .block-logo {
+      text-align: center;
+      margin-bottom: 40px;
+      margin-top: -125px; }
+    .page-price footer .inner-wrapper ul {
+      display: flex;
+      display: -webkit-flex;
+      align-content: space-between;
+      padding: 0; }
+      .page-price footer .inner-wrapper ul li {
+        flex: 1;
+        list-style-type: none;
+        font-weight: 300;
+        font-family: Circular;
+        font-size: 16px;
+        text-align: center; }
+        .page-price footer .inner-wrapper ul li * {
+          color: #fff; }
+    .page-price footer .inner-wrapper .copyright {
+      margin-top: 50px;
+      opacity: 0.56;
+      font-family: Circular;
+      font-weight: 500;
+      text-align: center;
+      font-size: 14px;
+      color: #FFFFFF;
+      letter-spacing: 0;
+      line-height: 20px; }
 
 /*# sourceMappingURL=style.css.map */
