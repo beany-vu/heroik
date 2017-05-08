@@ -1,0 +1,41 @@
+header {
+  padding: 70px 0;
+  nav {
+    text-align: right;
+    li {
+      list-style-type: none;
+    }
+    li.link {
+      font-size: 17px;
+
+      display: inline-block;
+      padding: 0 30px;
+      &.current,
+      &:hover {
+        a {
+          text-decoration: none;
+          &:after {
+            content: "";
+            position: absolute;
+            bottom: 0;
+            left: 15px;
+            right: 15px;
+            height: 4px;
+            background: #7A34D1;
+          }
+        }
+      }
+      a {
+        position: relative;
+        display: inline-block;
+        padding: 10px;
+        color: #343146;
+        font-family: Circular;
+        font-weight: 500;
+      }
+    }
+    li.btn {
+      margin-bottom: 0;
+    }
+  }
+}

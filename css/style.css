@@ -6121,7 +6121,8 @@ select {
   font-weight: 500;
   border: 0;
   cursor: pointer;
-  margin-bottom: 15px; }
+  margin-bottom: 15px;
+  padding: 10px 25px; }
 
 .btn-wide {
   padding: 10px 60px; }
@@ -6179,6 +6180,36 @@ progress[value]::-webkit-progress-value {
   transform: skew(-15deg, 0);
   background: #4BE2A1; }
 
+header {
+  padding: 70px 0; }
+  header nav {
+    text-align: right; }
+    header nav li {
+      list-style-type: none; }
+    header nav li.link {
+      font-size: 17px;
+      display: inline-block;
+      padding: 0 30px; }
+      header nav li.link.current a, header nav li.link:hover a {
+        text-decoration: none; }
+        header nav li.link.current a:after, header nav li.link:hover a:after {
+          content: "";
+          position: absolute;
+          bottom: 0;
+          left: 15px;
+          right: 15px;
+          height: 4px;
+          background: #7A34D1; }
+      header nav li.link a {
+        position: relative;
+        display: inline-block;
+        padding: 10px;
+        color: #343146;
+        font-family: Circular;
+        font-weight: 500; }
+    header nav li.btn {
+      margin-bottom: 0; }
+
 .block-hero {
   flex: 1;
   -webkit-flex: 1;
@@ -6215,6 +6246,33 @@ progress[value]::-webkit-progress-value {
 @media (max-width: 1199px) {
   .block-hero .block-content {
     padding: 15px 0; } }
+
+.block-typcial .txt-md {
+  margin-bottom: 30px;
+  font-family: Circular;
+  font-weight: 500;
+  font-size: 26px;
+  color: #A4A7BF;
+  letter-spacing: -1.1px;
+  line-height: 28px; }
+
+.block-typcial .txt-lg {
+  margin-bottom: 70px;
+  font-family: Circular;
+  font-weight: 700;
+  font-size: 58px;
+  color: #343146;
+  letter-spacing: -3px;
+  line-height: 60px; }
+
+.block-typcial .txt-sm {
+  margin-bottom: 150px;
+  font-family: Circular;
+  font-weight: 300;
+  font-size: 17px;
+  color: #000000;
+  letter-spacing: -0.4px;
+  line-height: 19px; }
 
 .page-full-screen .col-left,
 .page-full-screen .col-right {
@@ -6680,63 +6738,6 @@ progress[value]::-webkit-progress-value {
     .page-login-register .inner-wrapper form .new-user {
       font-weight: 500; }
 
-.page-price .txt-md {
-  margin-bottom: 30px;
-  font-family: Circular;
-  font-weight: 500;
-  font-size: 26px;
-  color: #A4A7BF;
-  letter-spacing: -1.1px;
-  line-height: 28px; }
-
-.page-price .txt-lg {
-  margin-bottom: 70px;
-  font-family: Circular;
-  font-weight: 700;
-  font-size: 58px;
-  color: #343146;
-  letter-spacing: -3px;
-  line-height: 60px; }
-
-.page-price .txt-sm {
-  margin-bottom: 150px;
-  font-family: Circular;
-  font-weight: 300;
-  font-size: 17px;
-  color: #000000;
-  letter-spacing: -0.4px;
-  line-height: 19px; }
-
-.page-price header {
-  padding: 70px 0; }
-  .page-price header nav {
-    text-align: right; }
-    .page-price header nav li {
-      list-style-type: none; }
-    .page-price header nav li.link {
-      font-size: 17px;
-      display: inline-block;
-      padding: 0 30px; }
-      .page-price header nav li.link.current a, .page-price header nav li.link:hover a {
-        text-decoration: none; }
-        .page-price header nav li.link.current a:after, .page-price header nav li.link:hover a:after {
-          content: "";
-          position: absolute;
-          bottom: 0;
-          left: 15px;
-          right: 15px;
-          height: 4px;
-          background: #7A34D1; }
-      .page-price header nav li.link a {
-        position: relative;
-        display: inline-block;
-        padding: 10px;
-        color: #343146;
-        font-family: Circular;
-        font-weight: 500; }
-    .page-price header nav li.btn {
-      margin-bottom: 0; }
-
 .page-price .block-price {
   margin-bottom: 70px; }
   .page-price .block-price .block-heading {
@@ -6884,5 +6885,63 @@ progress[value]::-webkit-progress-value {
       color: #FFFFFF;
       letter-spacing: 0;
       line-height: 20px; }
+
+.page-landing header {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  z-index: 9999;
+  padding: 40px; }
+  .page-landing header nav li a {
+    color: #fff; }
+
+.page-landing .site-content {
+  background: url(../images/landing-bg.png) no-repeat;
+  background-size: cover; }
+  .page-landing .site-content:after {
+    content: '';
+    display: table;
+    clear: both; }
+
+.page-landing .block-typcial {
+  position: relative;
+  z-index: 1; }
+  .page-landing .block-typcial .txt-md,
+  .page-landing .block-typcial .txt-lg {
+    margin-bottom: 20px; }
+  .page-landing .block-typcial .txt-sm {
+    margin-bottom: 50px; }
+
+.page-landing .col-left,
+.page-landing .col-right {
+  width: 100%;
+  max-width: 50%;
+  float: left;
+  min-height: 100vh; }
+
+.page-landing .col-left {
+  padding: 40px;
+  position: relative;
+  display: flex;
+  display: -webkit-flex;
+  align-items: center;
+  max-width: 30%; }
+  .page-landing .col-left:after {
+    content: "";
+    position: absolute;
+    top: 0;
+    right: -140px;
+    bottom: 0;
+    left: -100%;
+    background: #fff;
+    -webkit-transform: skew(-15deg);
+    -moz-transform: skew(-15deg);
+    -ms-transform: skew(-15deg);
+    -o-transform: skew(-15deg);
+    transform: skew(-15deg); }
+
+.page-landing .col-right {
+  max-width: 70%; }
 
 /*# sourceMappingURL=style.css.map */
