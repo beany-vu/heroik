@@ -6141,6 +6141,12 @@ select {
   font-size: 14px;
   background: rgba(255, 255, 255, 0.56); }
 
+.btn-white {
+  color: #322D52;
+  background: #fff;
+  padding: 10px;
+  text-transform: none; }
+
 .less-radius {
   -webkit-border-radius: 5px;
   -moz-border-radius: 5px;
@@ -6589,5 +6595,87 @@ progress[value]::-webkit-progress-value {
       -o-transform: skew(-10deg, 0);
       transform: skew(-10deg, 0);
       background: #4BE2A1; }
+
+.page-login-register .inner-wrapper {
+  padding: 15px;
+  display: flex;
+  display: -webkit-flex;
+  flex: 1;
+  -webkit-flex: 1;
+  flex-direction: column;
+  -webkit-flex-direction: column;
+  position: relative;
+  min-height: 100vh;
+  background: url(../images/page-log-reg/bg-login-register.jpg) no-repeat;
+  background-size: cover; }
+  .page-login-register .inner-wrapper:before {
+    content: "";
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    background: rgba(139, 77, 228, 0.98); }
+  .page-login-register .inner-wrapper form {
+    position: relative;
+    width: 100%;
+    max-width: 305px;
+    margin: auto;
+    z-index: 1;
+    text-align: center; }
+    .page-login-register .inner-wrapper form .block-logo {
+      margin-bottom: 30px; }
+      .page-login-register .inner-wrapper form .block-logo img {
+        height: 50px; }
+    .page-login-register .inner-wrapper form .block-heading {
+      margin-bottom: 30px;
+      color: #fff;
+      font-weight: 500;
+      font-size: 26px; }
+    .page-login-register .inner-wrapper form .input-group .input-group-addon {
+      background: transparent;
+      position: absolute;
+      top: 0;
+      left: 0;
+      bottom: 0;
+      width: 40px;
+      color: #fff;
+      z-index: 10;
+      border: 0; }
+    .page-login-register .inner-wrapper form .input-group input {
+      padding: 15px 20px;
+      text-indent: 50px;
+      font-size: 18px;
+      font-family: Circular;
+      font-weight: 300;
+      background: rgba(30, 36, 60, 0.64);
+      border: 0;
+      letter-spacing: -0.86px;
+      color: #fff;
+      -webkit-border-radius: 4px;
+      -moz-border-radius: 4px;
+      border-radius: 4px;
+      -webkit-transition: all 0.1s ease-out;
+      -moz-transition: all 0.1s ease-out;
+      -ms-transition: all 0.1s ease-out;
+      -o-transition: all 0.1s ease-out;
+      transition: all 0.1s ease-out;
+      opacity: 0.35; }
+      .page-login-register .inner-wrapper form .input-group input:focus {
+        color: white;
+        opacity: 1; }
+      .page-login-register .inner-wrapper form .input-group input:-moz-placeholder, .page-login-register .inner-wrapper form .input-group input::-webkit-input-placeholder, .page-login-register .inner-wrapper form .input-group input::-moz-placeholder, .page-login-register .inner-wrapper form .input-group input:-ms-input-placeholder {
+        color: white; }
+    .page-login-register .inner-wrapper form .btn-submit {
+      margin-bottom: 30px; }
+    .page-login-register .inner-wrapper form p {
+      font-weight: 300;
+      font-family: Circular;
+      color: #fff;
+      font-size: 16px; }
+      .page-login-register .inner-wrapper form p a {
+        color: #fff; }
+    .page-login-register .inner-wrapper form .new-user {
+      font-weight: 500; }
 
 /*# sourceMappingURL=style.css.map */

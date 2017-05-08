@@ -21,7 +21,6 @@
 .btn-purple {
   background: $c-purple;
 }
-
 .btn-grey {
   background: $c-grey;
 }
@@ -30,7 +29,12 @@
   font-size: 14px;
   background: rgba(255, 255, 255, .56);
 }
-
+.btn-white {
+  color: #322D52;
+  background: #fff;
+  padding: 10px;
+  text-transform: none;
+}
 .less-radius {
   -webkit-border-radius: 5px;
   -moz-border-radius: 5px;
