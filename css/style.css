@@ -10831,13 +10831,17 @@ header nav li.btn {
 /* line 12, ../scss/pages/_index.scss */
 .page-index .block-featured-list .item {
   display: inline-block;
-  marign-bottom: 20px;
+  margin-bottom: 20px;
 }
-/* line 16, ../scss/pages/_index.scss */
+/* line 15, ../scss/pages/_index.scss */
+.page-index .block-featured-list .item:hover {
+  cursor: pointer;
+}
+/* line 17, ../scss/pages/_index.scss */
 .page-index .block-featured-list .item:hover .img-wrapper {
   border: 2px solid #fff;
 }
-/* line 20, ../scss/pages/_index.scss */
+/* line 21, ../scss/pages/_index.scss */
 .page-index .block-featured-list .item .img-wrapper {
   margin: auto;
   border: 2px solid rgba(181, 142, 255, 0.39);
@@ -10851,11 +10855,15 @@ header nav li.btn {
   vertical-align: middle;
   background: rgba(181, 142, 255, 0.39);
 }
-/* line 32, ../scss/pages/_index.scss */
+/* line 34, ../scss/pages/_index.scss */
+.page-index .block-featured-list .item .img-wrapper.active {
+  border: 2px solid #fff;
+}
+/* line 38, ../scss/pages/_index.scss */
 .page-index .block-featured-list .item .img-wrapper img {
   width: 50%;
 }
-/* line 36, ../scss/pages/_index.scss */
+/* line 42, ../scss/pages/_index.scss */
 .page-index .block-featured-list .item .txt {
   margin: 10px 0 20px;
   font-size: 23px;
@@ -10864,39 +10872,43 @@ header nav li.btn {
   font-weight: 300;
   text-align: center;
 }
+/* line 50, ../scss/pages/_index.scss */
+.page-index .block-featured-list .item input {
+  display: none;
+}
 
 @media (min-width: 1600px) {
-  /* line 54, ../scss/pages/_index.scss */
+  /* line 63, ../scss/pages/_index.scss */
   .page-index .block-featured-list .item .img-wrapper {
     width: 250px;
     height: 250px;
     line-height: 250px;
   }
-  /* line 59, ../scss/pages/_index.scss */
+  /* line 68, ../scss/pages/_index.scss */
   .page-index .block-featured-list .item .txt {
     margin: 10px 0 40px;
   }
 }
 @media (max-width: 1199px) {
-  /* line 71, ../scss/pages/_index.scss */
+  /* line 80, ../scss/pages/_index.scss */
   .page-index .block-featured-list .item .img-wrapper {
     width: 250px;
     height: 250px;
     line-height: 250px;
   }
-  /* line 76, ../scss/pages/_index.scss */
+  /* line 85, ../scss/pages/_index.scss */
   .page-index .block-featured-list .item .txt {
     margin: 10px 0 40px;
   }
 }
 @media (max-width: 991px) {
-  /* line 91, ../scss/pages/_index.scss */
+  /* line 100, ../scss/pages/_index.scss */
   .page-index .block-featured-list .item .img-wrapper {
     width: 150px;
     height: 150px;
     line-height: 150px;
   }
-  /* line 96, ../scss/pages/_index.scss */
+  /* line 105, ../scss/pages/_index.scss */
   .page-index .block-featured-list .item .txt {
     margin: 10px 0 40px;
   }
