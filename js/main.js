@@ -23,12 +23,15 @@ jQuery(document).ready(function () {
         jQuery(this).parent().find('li.item').removeClass('active');
         jQuery(this).addClass('active');
         jQuery(this).find('input').prop("checked", true);
+
+        localStorage.setItem('niche', jQuery(this).find('input').val());
         // console.log(jQuery("form").serialize());
     });
 
     jQuery('.page-type form .item button').click(function (event) {
         event.preventDefault();
         jQuery(this).parent().parent().parent().next('input').val(jQuery(this).data('value'));
+        localStorage.setItem('type', jQuery(this).parent().parent().parent().next('input').val());
     });
 
     jQuery('.block-slider').slick({
