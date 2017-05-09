@@ -7,6 +7,7 @@ jQuery(document).ready(function () {
         jQuery(this).parent().find('.img-wrapper').removeClass('active');
         jQuery(this).find('.img-wrapper').addClass('active');
         jQuery(this).find('input').prop("checked", true);
+        localStorage.setItem('niche', jQuery(this).find('input').val());
     });
 
     jQuery('.page-business .block-featured-list li.item button').click(function (event) {
@@ -14,7 +15,7 @@ jQuery(document).ready(function () {
         jQuery(this).parent().parent().parent().find('li.item').removeClass('active');
         jQuery(this).parent().parent().addClass('active');
         jQuery(this).prev('input').prop("checked", true);
-        // console.log(jQuery("form").serialize());
+        localStorage.setItem('niche', jQuery(this).prev('input').val());
     });
 
     jQuery('.page-business .block-featured-list li.item').click(function (event) {
