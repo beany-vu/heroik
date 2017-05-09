@@ -7,6 +7,7 @@
         .item {
             padding : 15px;
             border  : 2px solid rgba(181, 142, 255, 0);
+            list-style-type: none;
             &:hover {
                 border        : 2px solid #fff;
                 background    : rgba(181, 142, 255, 0.39);

@@ -23,6 +23,7 @@
 }
 .btn-purple {
   background: $c-purple;
+  color: #fff;
 }
 .btn-grey {
   background: $c-grey;
@@ -48,4 +49,12 @@
   font-size: 22px;
   color: #fff;
   font-weight: 900;
+}
+
+.btn {
+  .material-icons {
+    vertical-align: middle;
+    color: #fff;
+    margin-left: 20px;
+  }
 }
