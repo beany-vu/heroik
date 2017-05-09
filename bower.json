@@ -18,7 +18,9 @@
     "jquery": "^1",
     "bootstrap": "^4",
     "font-awesome": "fontawesome#^4.7.0",
-    "pushy": "^1.1.0"
+    "pushy": "^1.1.0",
+    "slick": "*",
+    "slick-carousel": "^1.6.0"
   },
   "overrides": {
     "font-awesome": {
@@ -26,8 +28,8 @@
         "css/font-awesome.min.css"
       ]
     },
-    "pushy" : {
-      "main" : [
+    "pushy": {
+      "main": [
         "css/pushy.css",
         "js/pushy.js"
       ]
