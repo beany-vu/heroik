@@ -14,5 +14,11 @@ jQuery(document).ready(function () {
         jQuery(this).parent().parent().parent().find('li.item').removeClass('active');
         jQuery(this).parent().parent().addClass('active');
         jQuery(this).prev('input').prop("checked", true);
+        // console.log(jQuery("form").serialize());
+    });
+
+    jQuery('.page-type form .item button').click(function (event) {
+        event.preventDefault();
+        jQuery(this).parent().parent().parent().next('input').val(jQuery(this).data('value'));
     });
 });
