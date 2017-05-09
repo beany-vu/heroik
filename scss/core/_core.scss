@@ -1,34 +1,37 @@
 * {
-  box-sizing: border-box;
+    box-sizing : border-box;
 }
+
 html {
-  font-family: 'Circular', serif;
-  font-size: 15px;
+    font-family : 'Circular', serif;
+    font-size   : 15px;
 
 }
+
 html * {
-  font-family: inherit;
-  font-size: inherit;
-  color: #6c6c6e;
+    font-family : inherit;
+    font-size   : inherit;
+    color       : #4a4263;
 }
 
 .label {
-  padding: 4px 10px 5px;
-  display: inline-block;
-  vertical-align: text-bottom;
-  margin: 0 15px;
+    padding        : 4px 10px 5px;
+    display        : inline-block;
+    vertical-align : text-bottom;
+    margin         : 0 15px;
 }
+
 .rounded {
-  -webkit-border-radius: 50%;
-  -moz-border-radius: 50%;
-  border-radius: 50%;
+    -webkit-border-radius : 50%;
+    -moz-border-radius    : 50%;
+    border-radius         : 50%;
 }
 
 select {
-  appearance:none;
-  -moz-appearance:none; /* Firefox */
-  -webkit-appearance:none; /* Safari and Chrome */
-  padding: 4px 25px 4px 15px;
-  background: url(../images/select-arrow.png) no-repeat right center;
-  border: 1px solid #ecedee;
+    appearance         : none;
+    -moz-appearance    : none; /* Firefox */
+    -webkit-appearance : none; /* Safari and Chrome */
+    padding            : 4px 25px 4px 15px;
+    background         : url(../images/select-arrow.png) no-repeat right center;
+    border             : 1px solid #ecedee;
 }

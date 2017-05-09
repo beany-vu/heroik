@@ -1,45 +1,52 @@
 .block-hero {
-  flex: 1;
-  -webkit-flex: 1;
-  align-self: stretch;
-  display: flex;
-  align-items: center;
-  .block-inner-wrapper {
-    display: -webkit-flex; /* Safari */
-    display: flex;
-    -webkit-flex-direction: column; /* Safari */
-    flex-direction:         column;
-    margin-top: 20%;
-  }
-  .block-title {
-    h1 {
-      font-family: Circular;
-      font-weight: bold;
-      font-size: 83px;
-      color: #343146;
-      letter-spacing: -4.56px;
-      line-height: 83px;
+    flex         : 1;
+    -webkit-flex : 1;
+    align-self   : stretch;
+    display      : flex;
+    align-items  : center;
+    .block-inner-wrapper {
+        display                : -webkit-flex; /* Safari */
+        display                : flex;
+        -webkit-flex-direction : column; /* Safari */
+        flex-direction         : column;
+        margin-top             : 20%;
     }
-  }
-  .block-content {
-    padding: 80px 0 100px;
-    font-family: Lato;
-    font-weight: 400;
-    font-size: 17px;
-    color: #4A4263;
-    letter-spacing: 0.04px;
-    line-height: 27px;
-    .txt-highlight {
-      font-size: 21px;
-      color: $c-purple;
+    .block-title {
+        h1 {
+            font-family    : Circular;
+            //font-weight    : bold;
+            font-size      : 83px;
+            color          : #343146;
+            letter-spacing : -4.56px;
+            line-height    : 83px;
+            font-weight    : normal;
+            margin-top     : 8rem;
+
+        }
     }
-  }
+    .block-content {
+        padding        : 80px 0 100px;
+        font-family    : Lato;
+        font-weight    : 400;
+        font-size      : 17px;
+        color          : #4a4263;
+        letter-spacing : 0.04px;
+        line-height    : 27px;
+        padding        : 0 0 4rem;
+
+        .txt-highlight {
+            font-size : 21px;
+            color     : $c-purple;
+            width     : 80%;
+            margin    : 1rem 0;
+        }
+    }
 }
 
 @include media-breakpoint-down(lg) {
-  .block-hero {
-    .block-content {
-      padding: 15px 0;
+    .block-hero {
+        .block-content {
+            padding : 15px 0;
+        }
     }
-  }
 }
