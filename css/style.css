@@ -6483,7 +6483,7 @@ header {
 
 @media (min-width: 1600px) {
   .page-business .block-featured-list .item {
-    padding: 40px 80px; }
+    padding: 80px; }
     .page-business .block-featured-list .item .img-wrapper {
       margin-bottom: 80px; }
     .page-business .block-featured-list .item .item-description {
