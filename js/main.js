@@ -15,7 +15,7 @@ jQuery(document).ready(function () {
         jQuery(this).parent().parent().parent().find('li.item').removeClass('active');
         jQuery(this).parent().parent().addClass('active');
         jQuery(this).prev('input').prop("checked", true);
-        localStorage.setItem('niche', jQuery(this).('input').val());
+        localStorage.setItem('niche', jQuery(this).prev('input').val());
     });
 
     jQuery('.page-business .block-featured-list li.item').click(function (event) {
