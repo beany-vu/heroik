@@ -27,11 +27,12 @@ jQuery(document).ready(function () {
         localStorage.setItem('business', jQuery(this).find('input').val());
         // console.log(jQuery("form").serialize());
     });
-    
+
     jQuery('.page-type form .item button').click(function (event) {
         event.preventDefault();
-        jQuery(this).parent().parent().parent().next('input').val(jQuery(this).data('value'));
-        localStorage.setItem('type', jQuery(this).parent().parent().parent().next('input').val());
+        var input = jQuery(this).parent().parent().parent().parent().parent().next('input');
+        input.val(jQuery(this).data('value'));
+        localStorage.setItem('type', input.val());
     });
 
     jQuery('.block-slider').slick({
