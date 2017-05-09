@@ -9,11 +9,7 @@
             padding         : 15px;
             border          : 2px solid rgba(181, 142, 255, 0);
             list-style-type : none;
-            &:hover {
-                border        : 2px solid #fff;
-                background    : rgba(181, 142, 255, 0.39);
-                border-radius : 7px;
-            }
+
             .summary,
             .item-heading,
             .item-description {
@@ -58,7 +54,12 @@
                 background : rgba(122, 52, 209, 1.00);
                 opacity    : 0.35;
             }
-            &:hover {
+
+            &:hover, &.active {
+                border        : 2px solid #fff;
+                background    : rgba(181, 142, 255, 0.39);
+                border-radius : 7px;
+
                 .img-wrapper,
                 .item-description,
                 .item-heading {
@@ -73,6 +74,10 @@
             }
             .item-action, .item-content {
                 text-align : left;
+            }
+
+            input {
+                display : none;
             }
         }
     }

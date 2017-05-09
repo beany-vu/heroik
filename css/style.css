@@ -10924,20 +10924,14 @@ header nav li.btn {
   border: 2px solid rgba(181, 142, 255, 0);
   list-style-type: none;
 }
-/* line 12, ../scss/pages/_business.scss */
-.page-business .block-featured-list .item:hover {
-  border: 2px solid #fff;
-  background: rgba(181, 142, 255, 0.39);
-  border-radius: 7px;
-}
-/* line 17, ../scss/pages/_business.scss */
+/* line 13, ../scss/pages/_business.scss */
 .page-business .block-featured-list .item .summary,
 .page-business .block-featured-list .item .item-heading,
 .page-business .block-featured-list .item .item-description {
   color: #fff;
   font-family: 'Circular';
 }
-/* line 23, ../scss/pages/_business.scss */
+/* line 19, ../scss/pages/_business.scss */
 .page-business .block-featured-list .item .img-wrapper {
   margin-bottom: 30px;
   opacity: 0.35;
@@ -10947,7 +10941,7 @@ header nav li.btn {
   -o-transition: opacity 0.1s ease-out;
   transition: opacity 0.1s ease-out;
 }
-/* line 32, ../scss/pages/_business.scss */
+/* line 28, ../scss/pages/_business.scss */
 .page-business .block-featured-list .item .summary {
   font-size: 17px;
   opacity: 0.35;
@@ -10957,11 +10951,11 @@ header nav li.btn {
   -o-transition: opacity 0.1s ease-out;
   transition: opacity 0.1s ease-out;
 }
-/* line 41, ../scss/pages/_business.scss */
+/* line 37, ../scss/pages/_business.scss */
 .page-business .block-featured-list .item .item-heading {
   font-size: 48px;
 }
-/* line 44, ../scss/pages/_business.scss */
+/* line 40, ../scss/pages/_business.scss */
 .page-business .block-featured-list .item .item-description {
   font-size: 16px;
   line-height: 200%;
@@ -10975,52 +10969,64 @@ header nav li.btn {
   -o-transition: opacity 0.1s ease-out;
   transition: opacity 0.1s ease-out;
 }
-/* line 57, ../scss/pages/_business.scss */
+/* line 53, ../scss/pages/_business.scss */
 .page-business .block-featured-list .item .btn {
   background: #7a34d1;
   opacity: 0.35;
 }
-/* line 62, ../scss/pages/_business.scss */
+/* line 58, ../scss/pages/_business.scss */
+.page-business .block-featured-list .item:hover, .page-business .block-featured-list .item.active {
+  border: 2px solid #fff;
+  background: rgba(181, 142, 255, 0.39);
+  border-radius: 7px;
+}
+/* line 63, ../scss/pages/_business.scss */
 .page-business .block-featured-list .item:hover .img-wrapper,
 .page-business .block-featured-list .item:hover .item-description,
-.page-business .block-featured-list .item:hover .item-heading {
+.page-business .block-featured-list .item:hover .item-heading, .page-business .block-featured-list .item.active .img-wrapper,
+.page-business .block-featured-list .item.active .item-description,
+.page-business .block-featured-list .item.active .item-heading {
   opacity: 1;
 }
-/* line 67, ../scss/pages/_business.scss */
-.page-business .block-featured-list .item:hover .btn {
+/* line 68, ../scss/pages/_business.scss */
+.page-business .block-featured-list .item:hover .btn, .page-business .block-featured-list .item.active .btn {
   background: rgba(255, 255, 255, 0.56);
   color: #48426A;
   opacity: 1;
 }
-/* line 74, ../scss/pages/_business.scss */
+/* line 75, ../scss/pages/_business.scss */
 .page-business .block-featured-list .item .item-action, .page-business .block-featured-list .item .item-content {
   text-align: left;
 }
+/* line 79, ../scss/pages/_business.scss */
+.page-business .block-featured-list .item input {
+  display: none;
+}
 
 @media (min-width: 1600px) {
-  /* line 84, ../scss/pages/_business.scss */
+  /* line 89, ../scss/pages/_business.scss */
   .page-business .block-featured-list .item {
     padding: 80px;
   }
-  /* line 86, ../scss/pages/_business.scss */
+  /* line 91, ../scss/pages/_business.scss */
   .page-business .block-featured-list .item .img-wrapper {
     margin-bottom: 80px;
   }
-  /* line 89, ../scss/pages/_business.scss */
+  /* line 94, ../scss/pages/_business.scss */
   .page-business .block-featured-list .item .item-description {
     margin-bottom: 130px;
   }
 }
 @media (max-width: 1199px) {
-  /* line 100, ../scss/pages/_business.scss */
+  /* line 105, ../scss/pages/_business.scss */
   .page-business .block-featured-list .item {
     padding: 15px;
   }
-  /* line 102, ../scss/pages/_business.scss */
+  /* line 107, ../scss/pages/_business.scss */
   .page-business .block-featured-list .item .img-wrapper {
     margin: 0;
   }
-  /* line 105, ../scss/pages/_business.scss */
+  /* line 110, ../scss/pages/_business.scss */
   .page-business .block-featured-list .item .item-description {
     margin-bottom: 25px;
   }
