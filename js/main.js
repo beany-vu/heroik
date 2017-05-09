@@ -25,14 +25,6 @@ jQuery(document).ready(function () {
         // console.log(jQuery("form").serialize());
     });
 
-    jQuery('.page-business .block-featured-list li.item').mouseover(function () {
-        event.preventDefault();
-        jQuery(this).parent().find('li.item').removeClass('active');
-        jQuery(this).addClass('active');
-        // jQuery(this).find('input').prop("checked", true);
-        // console.log(jQuery("form").serialize());
-    });
-
     jQuery('.page-type form .item button').click(function (event) {
         event.preventDefault();
         jQuery(this).parent().parent().parent().next('input').val(jQuery(this).data('value'));
