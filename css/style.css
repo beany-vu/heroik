@@ -10895,26 +10895,26 @@ header nav li.btn {
   padding: 0;
   text-align: center;
 }
-/* line 7, ../scss/pages/_business.scss */
+/* line 8, ../scss/pages/_business.scss */
 .page-business .block-featured-list .item {
   padding: 15px;
   border: 2px solid rgba(181, 142, 255, 0);
   list-style-type: none;
 }
-/* line 11, ../scss/pages/_business.scss */
+/* line 12, ../scss/pages/_business.scss */
 .page-business .block-featured-list .item:hover {
   border: 2px solid #fff;
   background: rgba(181, 142, 255, 0.39);
   border-radius: 7px;
 }
-/* line 16, ../scss/pages/_business.scss */
+/* line 17, ../scss/pages/_business.scss */
 .page-business .block-featured-list .item .summary,
 .page-business .block-featured-list .item .item-heading,
 .page-business .block-featured-list .item .item-description {
   color: #fff;
   font-family: 'Circular';
 }
-/* line 22, ../scss/pages/_business.scss */
+/* line 23, ../scss/pages/_business.scss */
 .page-business .block-featured-list .item .img-wrapper {
   margin-bottom: 30px;
   opacity: 0.35;
@@ -10924,7 +10924,7 @@ header nav li.btn {
   -o-transition: opacity 0.1s ease-out;
   transition: opacity 0.1s ease-out;
 }
-/* line 31, ../scss/pages/_business.scss */
+/* line 32, ../scss/pages/_business.scss */
 .page-business .block-featured-list .item .summary {
   font-size: 17px;
   opacity: 0.35;
@@ -10934,11 +10934,11 @@ header nav li.btn {
   -o-transition: opacity 0.1s ease-out;
   transition: opacity 0.1s ease-out;
 }
-/* line 40, ../scss/pages/_business.scss */
+/* line 41, ../scss/pages/_business.scss */
 .page-business .block-featured-list .item .item-heading {
   font-size: 48px;
 }
-/* line 43, ../scss/pages/_business.scss */
+/* line 44, ../scss/pages/_business.scss */
 .page-business .block-featured-list .item .item-description {
   font-size: 16px;
   line-height: 200%;
@@ -10952,49 +10952,49 @@ header nav li.btn {
   -o-transition: opacity 0.1s ease-out;
   transition: opacity 0.1s ease-out;
 }
-/* line 56, ../scss/pages/_business.scss */
+/* line 57, ../scss/pages/_business.scss */
 .page-business .block-featured-list .item .btn {
   background: rgba(122, 52, 209, 0.35);
 }
-/* line 60, ../scss/pages/_business.scss */
+/* line 61, ../scss/pages/_business.scss */
 .page-business .block-featured-list .item:hover .img-wrapper,
 .page-business .block-featured-list .item:hover .item-description,
 .page-business .block-featured-list .item:hover .item-heading {
   opacity: 1;
 }
-/* line 65, ../scss/pages/_business.scss */
+/* line 66, ../scss/pages/_business.scss */
 .page-business .block-featured-list .item:hover .btn {
   background: #A4A7BF;
 }
-/* line 69, ../scss/pages/_business.scss */
+/* line 70, ../scss/pages/_business.scss */
 .page-business .block-featured-list .item .item-action, .page-business .block-featured-list .item .item-content {
   text-align: left;
 }
 
 @media (min-width: 1600px) {
-  /* line 79, ../scss/pages/_business.scss */
+  /* line 80, ../scss/pages/_business.scss */
   .page-business .block-featured-list .item {
     padding: 80px;
   }
-  /* line 81, ../scss/pages/_business.scss */
+  /* line 82, ../scss/pages/_business.scss */
   .page-business .block-featured-list .item .img-wrapper {
     margin-bottom: 80px;
   }
-  /* line 84, ../scss/pages/_business.scss */
+  /* line 85, ../scss/pages/_business.scss */
   .page-business .block-featured-list .item .item-description {
     margin-bottom: 130px;
   }
 }
 @media (max-width: 1199px) {
-  /* line 95, ../scss/pages/_business.scss */
+  /* line 96, ../scss/pages/_business.scss */
   .page-business .block-featured-list .item {
     padding: 15px;
   }
-  /* line 97, ../scss/pages/_business.scss */
+  /* line 98, ../scss/pages/_business.scss */
   .page-business .block-featured-list .item .img-wrapper {
     margin: 0;
   }
-  /* line 100, ../scss/pages/_business.scss */
+  /* line 101, ../scss/pages/_business.scss */
   .page-business .block-featured-list .item .item-description {
     margin-bottom: 25px;
   }
@@ -11072,25 +11072,25 @@ header nav li.btn {
 .page-type .col-right .block-featured-list {
   font-family: Roboto;
 }
-/* line 13, ../scss/pages/_type.scss */
+/* line 15, ../scss/pages/_type.scss */
 .page-type .col-right .block-featured-list .block-heading {
   color: #fff;
-  font-size: 83px;
+  font-size: 45px;
   font-weight: 700;
   line-height: 1;
 }
-/* line 19, ../scss/pages/_type.scss */
+/* line 21, ../scss/pages/_type.scss */
 .page-type .col-right .block-featured-list .block-content {
   font-size: 17px;
   color: #fff;
   font-weight: 400;
 }
-/* line 25, ../scss/pages/_type.scss */
+/* line 27, ../scss/pages/_type.scss */
 .page-type .col-right .block-slider {
   font-family: Roboto;
   text-align: center;
 }
-/* line 29, ../scss/pages/_type.scss */
+/* line 31, ../scss/pages/_type.scss */
 .page-type .col-right .block-slider .item .summary {
   margin-bottom: 0;
   font-size: 9px;
@@ -11098,12 +11098,12 @@ header nav li.btn {
   font-family: Lato;
   font-style: italic;
 }
-/* line 36, ../scss/pages/_type.scss */
+/* line 38, ../scss/pages/_type.scss */
 .page-type .col-right .block-slider .item .item-heading {
   font-size: 17px;
   color: #fff;
 }
-/* line 40, ../scss/pages/_type.scss */
+/* line 42, ../scss/pages/_type.scss */
 .page-type .col-right .block-slider .item .item-description {
   margin-bottom: 30px;
   font-size: 16px;
@@ -11111,11 +11111,11 @@ header nav li.btn {
 }
 
 @media (max-width: 767px) {
-  /* line 53, ../scss/pages/_type.scss */
+  /* line 56, ../scss/pages/_type.scss */
   .page-type .col-right .block-featured-list .block-heading {
     font-size: 33px;
   }
-  /* line 57, ../scss/pages/_type.scss */
+  /* line 60, ../scss/pages/_type.scss */
   .page-type .col-right .block-featured-list .block-action .btn {
     font-size: 18px;
   }
