@@ -6521,6 +6521,8 @@ header {
       margin-bottom: 25px; } }
 
 .page-color .col-right .block-slider-wrapper {
+  position: relative;
+  z-index: 2;
   width: 100%;
   max-width: 730px;
   padding: 0 15px;
@@ -6540,7 +6542,8 @@ header {
     -ms-transform: translateY(-50%);
     -o-transform: translateY(-50%);
     transform: translateY(-50%);
-    font-size: 30px; }
+    font-size: 30px;
+    z-index: 1; }
   .page-color .col-right .block-featured-list .slick-prev {
     left: 0; }
   .page-color .col-right .block-featured-list .slick-next {
@@ -6608,34 +6611,73 @@ header {
   .page-type .col-right .block-slider {
     padding: 0;
     margin: auto;
-    max-width: 900px; }
+    max-width: 700px;
+    padding: 0 15px; }
   .page-type .col-right .block-featured-list {
     font-family: Roboto; }
     .page-type .col-right .block-featured-list .block-heading {
-      color: #fff;
-      font-size: 45px;
+      margin-bottom: 40px;
+      font-family: Circular;
       font-weight: 700;
-      line-height: 1; }
+      font-size: 80px;
+      color: #FFFFFF;
+      letter-spacing: -0.83px;
+      line-height: 82px; }
     .page-type .col-right .block-featured-list .block-content {
+      font-family: Roboto;
+      font-weight: 400;
       font-size: 17px;
-      color: #fff;
-      font-weight: 400; }
+      color: #FFFFFF;
+      letter-spacing: 0.04px;
+      line-height: 23px; }
+    .page-type .col-right .block-featured-list .block-action .btn {
+      padding: 18px 60px;
+      background: rgba(56, 49, 77, 0.42);
+      border-radius: 13px;
+      font-family: Lato;
+      font-weight: 900;
+      font-size: 22px;
+      color: #FFFFFF;
+      letter-spacing: -0.09px;
+      text-transform: none; }
   .page-type .col-right .block-slider {
+    margin-top: 70px;
     font-family: Roboto;
     text-align: center; }
     .page-type .col-right .block-slider .item .summary {
-      margin-bottom: 0;
-      font-size: 9px;
-      color: #fff;
       font-family: Lato;
-      font-style: italic; }
-    .page-type .col-right .block-slider .item .item-heading {
+      font-style: italic;
+      font-weight: 400;
       font-size: 17px;
-      color: #fff; }
+      color: #FFFFFF;
+      letter-spacing: -0.05px;
+      line-height: 25px; }
+    .page-type .col-right .block-slider .item .item-heading {
+      font-family: Circular;
+      font-weight: 700;
+      font-size: 35px;
+      color: #FFFFFF;
+      letter-spacing: -1.5px;
+      line-height: 39px; }
     .page-type .col-right .block-slider .item .item-description {
-      margin-bottom: 30px;
+      margin: 40px auto;
+      font-family: Lato;
+      font-weight: 400;
       font-size: 16px;
-      color: #fff; }
+      color: #FFFFFF;
+      letter-spacing: -0.05px;
+      line-height: 25px; }
+    .page-type .col-right .block-slider .item .btn {
+      opacity: 0.56;
+      background: #FFFFFF;
+      border-radius: 100px;
+      font-family: Circular;
+      font-weight: 500;
+      font-size: 14px;
+      color: #48426A;
+      letter-spacing: 2.82px;
+      line-height: 23px;
+      text-transform: uppercase; }
 
 @media (max-width: 767px) {
   .page-type .col-right .block-featured-list .block-heading {
