@@ -6520,12 +6520,34 @@ header {
     .page-business .block-featured-list .item .item-description {
       margin-bottom: 25px; } }
 
+.page-color .col-right .block-slider-wrapper {
+  width: 100%;
+  max-width: 730px;
+  padding: 0 15px;
+  margin: auto; }
+
 .page-color .col-right .block-featured-list {
   margin: auto;
   padding: 0; }
+  .page-color .col-right .block-featured-list .slick-next,
+  .page-color .col-right .block-featured-list .slick-prev {
+    color: #fff;
+    cursor: pointer;
+    position: absolute;
+    top: 50%;
+    -webkit-transform: translateY(-50%);
+    -moz-transform: translateY(-50%);
+    -ms-transform: translateY(-50%);
+    -o-transform: translateY(-50%);
+    transform: translateY(-50%);
+    font-size: 30px; }
+  .page-color .col-right .block-featured-list .slick-prev {
+    left: 0; }
+  .page-color .col-right .block-featured-list .slick-next {
+    right: 0; }
   .page-color .col-right .block-featured-list .item .img-wrapper {
-    width: 200px;
-    height: 200px;
+    width: 400px;
+    height: 400px;
     margin: auto;
     margin-bottom: 30px; }
     .page-color .col-right .block-featured-list .item .img-wrapper img {
@@ -6544,18 +6566,40 @@ header {
       font-family: Lato;
       font-style: italic; }
     .page-color .col-right .block-featured-list .item .item-content .item-heading {
-      font-size: 17px;
-      font-family: Circular; }
+      margin-bottom: 70px;
+      font-family: Circular;
+      font-weight: 700;
+      font-size: 35px;
+      color: #FFFFFF;
+      letter-spacing: -1.5px;
+      line-height: 39px; }
     .page-color .col-right .block-featured-list .item .item-content .item-description {
-      margin-bottom: 30px;
-      max-width: 700px; }
+      margin-bottom: 50px;
+      font-family: Lato;
+      font-weight: 400;
+      font-size: 16px;
+      color: #FFFFFF;
+      letter-spacing: -0.05px;
+      line-height: 25px; }
       .page-color .col-right .block-featured-list .item .item-content .item-description img {
         display: block;
-        height: 25px;
+        height: 50px;
         margin: auto;
-        margin-bottom: 30px; }
+        margin-bottom: 50px; }
   .page-color .col-right .block-featured-list .item .item-action {
     text-align: center; }
+    .page-color .col-right .block-featured-list .item .item-action .btn {
+      opacity: 0.56;
+      background: #FFFFFF;
+      border-radius: 100px;
+      /* Select: */
+      font-family: Circular;
+      font-weight: 500;
+      font-size: 14px;
+      color: #48426A;
+      letter-spacing: 2.82px;
+      line-height: 23px;
+      text-transform: uppercase; }
 
 .page-type .col-right {
   flex-direction: column;

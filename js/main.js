@@ -29,4 +29,9 @@ jQuery(document).ready(function () {
         event.preventDefault();
         jQuery(this).parent().parent().parent().next('input').val(jQuery(this).data('value'));
     });
+
+    jQuery('#page-color #block-slider').slick({
+        'prevArrow': '<i class="material-icons slick-prev">arrow_back</i>',
+        'nextArrow': '<i class="material-icons slick-next">arrow_forward</i>'
+    })
 });
