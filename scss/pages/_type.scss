@@ -46,6 +46,10 @@
             margin-top: 70px;
             font-family : Roboto;
             text-align  : center;
+            .slick-prev,
+            .slick-next {
+                top: 20%;
+            }
             .item {
                 .summary {
                     font-family: Lato;
