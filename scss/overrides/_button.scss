@@ -1,60 +1,68 @@
 .btn {
-  -webkit-border-radius: 100px;
-  -moz-border-radius: 100px;
-  border-radius: 100px;
-  font-size: 21px;
-  color: $c-white;
-  font-family: Circular;
-  font-weight: 500;
-  border: 0;
-  cursor: pointer;
-  margin-bottom: 15px;
-  padding: 10px 25px;
-}
-.btn-wide {
-  padding: 10px 60px;
-}
-.btn-lg {
-  min-width: 160px;
+    -webkit-border-radius : 100px;
+    -moz-border-radius    : 100px;
+    border-radius         : 100px;
+    font-size             : 21px;
+    color                 : $c-white;
+    font-family           : Circular;
+    font-weight           : 500;
+    border                : 0;
+    cursor                : pointer;
+    margin-bottom         : 15px;
+    padding               : 10px 25px;
 }
 
-.btn+.btn {
-  margin-left: 15px;
+.btn-wide {
+    padding : 10px 60px;
 }
+
+.btn-lg {
+    min-width : 160px;
+}
+
+.btn + .btn {
+    margin-left : 15px;
+}
+
 .btn-purple {
-  background: $c-purple;
-  color: #fff;
+    background : $c-purple;
+    color      : #fff;
 }
+
 .btn-grey {
-  background: $c-grey;
+    background : $c-grey;
 }
+
 .btn-inverted {
-  color: #48426A;
-  font-size: 14px;
-  background: rgba(255, 255, 255, .56);
+    color      : #48426a;
+    font-size  : 14px;
+    background : rgba(255, 255, 255, .56);
 }
+
 .btn-white {
-  color: #322D52;
-  background: #fff;
-  padding: 10px;
-  text-transform: none;
+    color          : #322d52;
+    background     : #fff;
+    padding        : 10px;
+    text-transform : none;
 }
+
 .less-radius {
-  -webkit-border-radius: 5px;
-  -moz-border-radius: 5px;
-  border-radius: 5px;
+    -webkit-border-radius : 5px;
+    -moz-border-radius    : 5px;
+    border-radius         : 5px;
 }
+
 .btn-inverted {
-  background: rgba(56, 49, 77, .42);
-  font-size: 22px;
-  color: #fff;
-  font-weight: 900;
+    background  : rgba(56, 49, 77, .42);
+    font-size   : 22px;
+    color       : #fff;
+    font-weight : 900;
 }
 
 .btn {
-  .material-icons {
-    vertical-align: middle;
-    color: #fff;
-    margin-left: 20px;
-  }
+    .material-icons {
+        vertical-align : middle;
+        color          : #fff;
+        margin-left    : 10px;
+    }
 }
