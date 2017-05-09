@@ -11324,19 +11324,24 @@ header nav li.btn {
   vertical-align: middle;
   display: flex;
   align-items: center;
+  min-width: 140px;
 }
-/* line 58, ../scss/pages/_yay.scss */
+/* line 60, ../scss/pages/_yay.scss */
+.page-yay .col-right .block-featured-list .item .item-thumb span {
+  font-size: 64px;
+}
+/* line 64, ../scss/pages/_yay.scss */
 .page-yay .col-right .block-featured-list .item .item-thumb img {
   width: 110px;
 }
 
 @media (max-width: 767px) {
-  /* line 70, ../scss/pages/_yay.scss */
+  /* line 77, ../scss/pages/_yay.scss */
   .page-yay .col-right .block-featured-list .item {
     flex-direction: column;
     -webkit-flex-direction: column;
   }
-  /* line 74, ../scss/pages/_yay.scss */
+  /* line 81, ../scss/pages/_yay.scss */
   .page-yay .col-right .block-featured-list .item .item-thumb img {
     padding: 15px;
   }
