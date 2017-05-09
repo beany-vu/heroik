@@ -55,7 +55,8 @@
                 transition         : opacity 0.1s ease-out;
             }
             .btn {
-                background : rgba(122, 52, 209, 0.35);
+                background : rgba(122, 52, 209, 1.00);
+                opacity    : 0.35;
             }
             &:hover {
                 .img-wrapper,
@@ -64,7 +65,10 @@
                     opacity : 1;
                 }
                 .btn {
-                    background : $c-grey;
+                    //background : $c-grey;
+                    background : rgba(255, 255, 255, 0.56);
+                    color      : $c-hover;
+                    opacity    : 1;
                 }
             }
             .item-action, .item-content {

@@ -5,7 +5,7 @@
     font-size             : 21px;
     color                 : $c-white;
     font-family           : Circular;
-    font-weight           : 500;
+    font-weight           : 300;
     border                : 0;
     cursor                : pointer;
     margin-bottom         : 15px;
@@ -44,6 +44,15 @@
     background     : #fff;
     padding        : 10px;
     text-transform : none;
+}
+
+.btn-upp {
+    text-transform : uppercase;
+}
+
+.btn-small {
+    font-size   : 14px;
+    line-height : 20px;
 }
 
 .less-radius {

@@ -10476,7 +10476,7 @@ li {
   font-size: 21px;
   color: #fff;
   font-family: Circular;
-  font-weight: 500;
+  font-weight: 300;
   border: 0;
   cursor: pointer;
   margin-bottom: 15px;
@@ -10525,13 +10525,24 @@ li {
 }
 
 /* line 49, ../scss/overrides/_button.scss */
+.btn-upp {
+  text-transform: uppercase;
+}
+
+/* line 53, ../scss/overrides/_button.scss */
+.btn-small {
+  font-size: 14px;
+  line-height: 20px;
+}
+
+/* line 58, ../scss/overrides/_button.scss */
 .less-radius {
   -webkit-border-radius: 5px;
   -moz-border-radius: 5px;
   border-radius: 5px;
 }
 
-/* line 55, ../scss/overrides/_button.scss */
+/* line 64, ../scss/overrides/_button.scss */
 .btn-inverted {
   background: rgba(56, 49, 77, 0.42);
   font-size: 22px;
@@ -10539,7 +10550,7 @@ li {
   font-weight: 900;
 }
 
-/* line 63, ../scss/overrides/_button.scss */
+/* line 72, ../scss/overrides/_button.scss */
 .btn .material-icons {
   vertical-align: middle;
   color: #fff;
@@ -10954,47 +10965,50 @@ header nav li.btn {
 }
 /* line 57, ../scss/pages/_business.scss */
 .page-business .block-featured-list .item .btn {
-  background: rgba(122, 52, 209, 0.35);
+  background: #7a34d1;
+  opacity: 0.35;
 }
-/* line 61, ../scss/pages/_business.scss */
+/* line 62, ../scss/pages/_business.scss */
 .page-business .block-featured-list .item:hover .img-wrapper,
 .page-business .block-featured-list .item:hover .item-description,
 .page-business .block-featured-list .item:hover .item-heading {
   opacity: 1;
 }
-/* line 66, ../scss/pages/_business.scss */
+/* line 67, ../scss/pages/_business.scss */
 .page-business .block-featured-list .item:hover .btn {
-  background: #A4A7BF;
+  background: rgba(255, 255, 255, 0.56);
+  color: #48426A;
+  opacity: 1;
 }
-/* line 70, ../scss/pages/_business.scss */
+/* line 74, ../scss/pages/_business.scss */
 .page-business .block-featured-list .item .item-action, .page-business .block-featured-list .item .item-content {
   text-align: left;
 }
 
 @media (min-width: 1600px) {
-  /* line 80, ../scss/pages/_business.scss */
+  /* line 84, ../scss/pages/_business.scss */
   .page-business .block-featured-list .item {
     padding: 80px;
   }
-  /* line 82, ../scss/pages/_business.scss */
+  /* line 86, ../scss/pages/_business.scss */
   .page-business .block-featured-list .item .img-wrapper {
     margin-bottom: 80px;
   }
-  /* line 85, ../scss/pages/_business.scss */
+  /* line 89, ../scss/pages/_business.scss */
   .page-business .block-featured-list .item .item-description {
     margin-bottom: 130px;
   }
 }
 @media (max-width: 1199px) {
-  /* line 96, ../scss/pages/_business.scss */
+  /* line 100, ../scss/pages/_business.scss */
   .page-business .block-featured-list .item {
     padding: 15px;
   }
-  /* line 98, ../scss/pages/_business.scss */
+  /* line 102, ../scss/pages/_business.scss */
   .page-business .block-featured-list .item .img-wrapper {
     margin: 0;
   }
-  /* line 101, ../scss/pages/_business.scss */
+  /* line 105, ../scss/pages/_business.scss */
   .page-business .block-featured-list .item .item-description {
     margin-bottom: 25px;
   }
@@ -11072,25 +11086,25 @@ header nav li.btn {
 .page-type .col-right .block-featured-list {
   font-family: Roboto;
 }
-/* line 15, ../scss/pages/_type.scss */
+/* line 14, ../scss/pages/_type.scss */
 .page-type .col-right .block-featured-list .block-heading {
   color: #fff;
   font-size: 45px;
   font-weight: 700;
   line-height: 1;
 }
-/* line 21, ../scss/pages/_type.scss */
+/* line 20, ../scss/pages/_type.scss */
 .page-type .col-right .block-featured-list .block-content {
   font-size: 17px;
   color: #fff;
   font-weight: 400;
 }
-/* line 27, ../scss/pages/_type.scss */
+/* line 26, ../scss/pages/_type.scss */
 .page-type .col-right .block-slider {
   font-family: Roboto;
   text-align: center;
 }
-/* line 31, ../scss/pages/_type.scss */
+/* line 30, ../scss/pages/_type.scss */
 .page-type .col-right .block-slider .item .summary {
   margin-bottom: 0;
   font-size: 9px;
@@ -11098,12 +11112,12 @@ header nav li.btn {
   font-family: Lato;
   font-style: italic;
 }
-/* line 38, ../scss/pages/_type.scss */
+/* line 37, ../scss/pages/_type.scss */
 .page-type .col-right .block-slider .item .item-heading {
   font-size: 17px;
   color: #fff;
 }
-/* line 42, ../scss/pages/_type.scss */
+/* line 41, ../scss/pages/_type.scss */
 .page-type .col-right .block-slider .item .item-description {
   margin-bottom: 30px;
   font-size: 16px;
@@ -11111,11 +11125,11 @@ header nav li.btn {
 }
 
 @media (max-width: 767px) {
-  /* line 56, ../scss/pages/_type.scss */
+  /* line 55, ../scss/pages/_type.scss */
   .page-type .col-right .block-featured-list .block-heading {
     font-size: 33px;
   }
-  /* line 60, ../scss/pages/_type.scss */
+  /* line 59, ../scss/pages/_type.scss */
   .page-type .col-right .block-featured-list .block-action .btn {
     font-size: 18px;
   }
