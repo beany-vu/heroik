@@ -1,68 +1,68 @@
 .page-landing {
-  header {
-    position: fixed;
-    top: 0;
-    left: 0;
-    width: 100%;
-    z-index: 9999;
-    padding: 40px;
-    nav {
-      li {
-        a {
-          color: #fff;
+    header {
+        position : fixed;
+        top      : 0;
+        left     : 0;
+        width    : 100%;
+        z-index  : 9999;
+        padding  : 40px;
+        nav {
+            li {
+                a {
+                    color : #fff;
+                }
+            }
         }
-      }
     }
-  }
-  .site-content {
-    background: url(../images/landing-bg.png) no-repeat;
-    background-size: cover;
-    &:after {
-      @include clearfix;
+    .site-content {
+        background      : url(../images/landing-bg.png) no-repeat;
+        background-size : cover;
+        &:after {
+            @include clearfix;
+        }
     }
-  }
-  .block-typcial {
-    position: relative;
-    z-index: 1;
-    .txt-md,
-    .txt-lg {
-      margin-bottom: 20px;
+    .block-typcial {
+        position : relative;
+        z-index  : 1;
+        .txt-md,
+        .txt-lg {
+            margin-bottom : 20px;
+        }
+        .txt-sm {
+            margin-bottom : 50px;
+        }
     }
-    .txt-sm {
-      margin-bottom: 50px;
+    .col-left,
+    .col-right {
+        width      : 100%;
+        max-width  : 50%;
+        float      : left;
+        min-height : 100vh;
     }
-  }
-  .col-left,
-  .col-right {
-    width: 100%;
-    max-width: 50%;
-    float: left;
-    min-height: 100vh;
-  }
-  .col-left {
-    padding: 40px;
-    position: relative;
-    display: flex;
-    display: -webkit-flex;
-    align-items: center;
-    max-width: 30%;
-    &:after {
-      content: "";
-      position: absolute;
-      top: 0;
-      right: -140px;
-      bottom: 0;
-      left: -100%;
-      background: #fff;
-      -webkit-transform: skew(-15deg);
-      -moz-transform: skew(-15deg);
-      -ms-transform: skew(-15deg);
-      -o-transform: skew(-15deg);
-      transform: skew(-15deg);
+    .col-left {
+        padding     : 40px;
+        position    : relative;
+        display     : flex;
+        display     : -webkit-flex;
+        align-items : center;
+        max-width   : 30%;
+        &:after {
+            content           : "";
+            position          : absolute;
+            top               : 0;
+            right             : -140px;
+            bottom            : 0;
+            left              : -100%;
+            background        : #fff;
+            -webkit-transform : skew(-15deg);
+            -moz-transform    : skew(-15deg);
+            -ms-transform     : skew(-15deg);
+            -o-transform      : skew(-15deg);
+            transform         : skew(-15deg);
+        }
     }
-  }
-  .col-right {
-    max-width: 70%;
+    .col-right {
+        max-width : 70%;
 
-  }
+    }
 }

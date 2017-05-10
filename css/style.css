@@ -11803,7 +11803,7 @@ header nav li.btn {
 /* line 17, ../scss/pages/_landing.scss */
 .page-landing .site-content {
   background: url(../images/landing-bg.png) no-repeat;
-  background-size: cover;
+  background-size: contain;
 }
 /* line 20, ../scss/pages/_landing.scss */
 .page-landing .site-content:after {
