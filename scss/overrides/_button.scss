@@ -10,6 +10,15 @@
     cursor                : pointer;
     margin-bottom         : 15px;
     padding               : 10px 25px;
+    opacity: 0.56;
+    -webkit-transition: all 0.1s ease-out;
+    -moz-transition: all 0.1s ease-out;
+    -ms-transition: all 0.1s ease-out;
+    -o-transition: all 0.1s ease-out;
+    transition: all 0.1s ease-out;
+    &:hover {
+        opacity: 1;
+    }
 }
 
 .btn-wide {

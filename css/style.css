@@ -6125,7 +6125,15 @@ li {
   border: 0;
   cursor: pointer;
   margin-bottom: 15px;
-  padding: 10px 25px; }
+  padding: 10px 25px;
+  opacity: 0.56;
+  -webkit-transition: all 0.1s ease-out;
+  -moz-transition: all 0.1s ease-out;
+  -ms-transition: all 0.1s ease-out;
+  -o-transition: all 0.1s ease-out;
+  transition: all 0.1s ease-out; }
+  .btn:hover {
+    opacity: 1; }
 
 .btn-wide {
   padding: 10px 60px; }
@@ -6699,7 +6707,7 @@ header {
   .page-yay .col-right .block-featured-list * {
     color: #fff; }
   .page-yay .col-right .block-featured-list .item {
-    padding: 20px 40px 20px 15px;
+    padding: 30px;
     margin-bottom: 10px;
     display: flex;
     display: -webkit-flex;
