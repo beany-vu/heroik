@@ -11803,29 +11803,29 @@ header nav li.btn {
 /* line 17, ../scss/pages/_landing.scss */
 .page-landing .site-content {
   background: url(../images/landing-bg.png) no-repeat;
-  background-size: contain;
+  background-size: cover;
 }
-/* line 20, ../scss/pages/_landing.scss */
+/* line 21, ../scss/pages/_landing.scss */
 .page-landing .site-content:after {
   content: '';
   display: table;
   clear: both;
 }
-/* line 24, ../scss/pages/_landing.scss */
+/* line 25, ../scss/pages/_landing.scss */
 .page-landing .block-typcial {
   position: relative;
   z-index: 1;
 }
-/* line 27, ../scss/pages/_landing.scss */
+/* line 28, ../scss/pages/_landing.scss */
 .page-landing .block-typcial .txt-md,
 .page-landing .block-typcial .txt-lg {
   margin-bottom: 20px;
 }
-/* line 31, ../scss/pages/_landing.scss */
+/* line 32, ../scss/pages/_landing.scss */
 .page-landing .block-typcial .txt-sm {
   margin-bottom: 50px;
 }
-/* line 35, ../scss/pages/_landing.scss */
+/* line 36, ../scss/pages/_landing.scss */
 .page-landing .col-left,
 .page-landing .col-right {
   width: 100%;
@@ -11833,7 +11833,7 @@ header nav li.btn {
   float: left;
   min-height: 100vh;
 }
-/* line 42, ../scss/pages/_landing.scss */
+/* line 43, ../scss/pages/_landing.scss */
 .page-landing .col-left {
   padding: 40px;
   position: relative;
@@ -11842,7 +11842,7 @@ header nav li.btn {
   align-items: center;
   max-width: 30%;
 }
-/* line 49, ../scss/pages/_landing.scss */
+/* line 50, ../scss/pages/_landing.scss */
 .page-landing .col-left:after {
   content: "";
   position: absolute;
@@ -11857,7 +11857,7 @@ header nav li.btn {
   -o-transform: skew(-15deg);
   transform: skew(-15deg);
 }
-/* line 64, ../scss/pages/_landing.scss */
+/* line 65, ../scss/pages/_landing.scss */
 .page-landing .col-right {
   max-width: 70%;
 }
