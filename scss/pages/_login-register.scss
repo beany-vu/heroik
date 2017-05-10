@@ -1,103 +1,109 @@
 .page-login-register {
-  .inner-wrapper {
-    padding: 15px;
-    display: flex;
-    display: -webkit-flex;
-    flex: 1;
-    -webkit-flex: 1;
-    flex-direction: column;
-    -webkit-flex-direction: column;
-    position: relative;
-    min-height: 100vh;
-    background: url(../images/page-log-reg/bg-login-register.jpg) no-repeat;
-    background-size: cover;
-    &:before {
-      content: "";
-      position: absolute;
-      top: 0;
-      right: 0;
-      bottom: 0;
-      left: 0;
-      background: rgba(139, 77, 228, 0.98);
-    }
-    form {
-      position: relative;
-      width: 100%;
-      max-width: 380px;
-      margin:auto;
-      z-index: 1;
-      text-align: center;
-      .block-logo {
-        margin-bottom: 30px;
-        img {
-          height: 50px;
+    .inner-wrapper {
+        padding                : 15px;
+        display                : flex;
+        display                : -webkit-flex;
+        flex                   : 1;
+        -webkit-flex           : 1;
+        flex-direction         : column;
+        -webkit-flex-direction : column;
+        position               : relative;
+        min-height             : 100vh;
+        background             : url(../images/page-log-reg/bg-login-register.jpg) no-repeat;
+        background-size        : cover;
+        &:before {
+            content    : "";
+            position   : absolute;
+            top        : 0;
+            right      : 0;
+            bottom     : 0;
+            left       : 0;
+            background : rgba(139, 77, 228, 0.98);
         }
-      }
-      .block-heading {
-        margin-bottom: 30px;
-        color: #fff;
-        font-weight: 500;
-        font-size: 26px;
-      }
-      .input-group {
-        .input-group-addon {
-          background: transparent;
-          position: absolute;
-          top: 0;
-          left: 0;
-          bottom: 0;
-          width: 40px;
-          color: #fff;
-          z-index: 10;
-          border: 0;
-        }
-        input  {
-          padding: 15px 20px;
-          text-indent: 50px;
-          font-size: 18px;
-          font-family: Circular;
-          font-weight: 300;
-          background: rgba(30, 36, 60, 0.64);
-          border: 0;
-          letter-spacing: -0.86px;
-          color: #fff;
-          -webkit-border-radius: 4px;
-          -moz-border-radius: 4px;
-          border-radius: 4px;
-          -webkit-transition: all 0.1s ease-out;
-          -moz-transition: all 0.1s ease-out;
-          -ms-transition: all 0.1s ease-out;
-          -o-transition: all 0.1s ease-out;
-          transition: all 0.1s ease-out;
-          opacity: 0.35;
-          &:focus {
-            color: rgba(255, 255, 255, 1);
-            opacity: 1;
+        form {
+            position   : relative;
+            width      : 100%;
+            max-width  : 380px;
+            margin     : auto;
+            z-index    : 1;
+            text-align : center;
+            .block-logo {
+                margin-bottom : 30px;
+                img {
+                    height : 50px;
+                }
+            }
+            .block-heading {
+                margin-bottom : 30px;
+                color         : #fff;
+                font-weight   : 500;
+                font-size     : 26px;
+            }
+            .input-group {
+                opacity: 0.64;
 
-          }
-          &:-moz-placeholder,
-          &::-webkit-input-placeholder,
-          &::-moz-placeholder,
-          &:-ms-input-placeholder{
-            color: rgba(255, 255, 255, 1);
-          }
+                .input-group-addon {
+                    background : transparent;
+                    position   : absolute;
+                    top        : 0;
+                    left       : 0;
+                    bottom     : 0;
+                    width      : 50px;
+                    color      : #fff;
+                    z-index    : 10;
+                    border     : 0;
+
+                    i {
+                        color : white
+                    }
+                }
+                input {
+                    padding               : 15px 20px;
+                    text-indent           : 30px;
+                    font-size             : 18px;
+                    font-family           : Circular;
+                    font-weight           : 300;
+                    background            : rgba(30, 36, 60, 1);
+                    border                : 0;
+                    letter-spacing        : -0.86px;
+                    color                 : #fff;
+                    -webkit-border-radius : 4px;
+                    -moz-border-radius    : 4px;
+                    border-radius         : 4px;
+                    -webkit-transition    : all 0.1s ease-out;
+                    -moz-transition       : all 0.1s ease-out;
+                    -ms-transition        : all 0.1s ease-out;
+                    -o-transition         : all 0.1s ease-out;
+                    transition            : all 0.1s ease-out;
+                    opacity               : 0.35;
+                    &:focus {
+                        color   : rgba(255, 255, 255, 1);
+                        opacity : 1;
+
+                    }
+                    &:-moz-placeholder,
+                    &::-webkit-input-placeholder,
+                    &::-moz-placeholder,
+                    &:-ms-input-placeholder {
+                        color : rgba(255, 255, 255, 1);
+                    }
+                }
+            }
+            .btn-submit {
+                margin-bottom : 30px;
+            }
+            p {
+                font-weight : 300;
+                font-family : Circular;
+                color       : #fff;
+                font-size   : 16px;
+                a {
+                    color : #fff;
+                }
+            }
+            .new-user {
+                font-weight : 500;
+            }
         }
-      }
-      .btn-submit {
-        margin-bottom: 30px;
-      }
-      p {
-        font-weight: 300;
-        font-family: Circular;
-        color: #fff;
-        font-size: 16px;
-        a {
-          color: #fff;
-        }
-      }
-      .new-user {
-        font-weight: 500;
-      }
     }
-  }
 }
