@@ -11541,192 +11541,227 @@ header nav li.btn {
 /* line 10, ../scss/pages/_price.scss */
 .page-price .block-price .block-content .table .block-purple {
   background: #8b4de5;
+  opacity: 0.9;
 }
-/* line 12, ../scss/pages/_price.scss */
+/* line 13, ../scss/pages/_price.scss */
 .page-price .block-price .block-content .table .block-purple * {
   color: #fff !important;
 }
-/* line 16, ../scss/pages/_price.scss */
+/* line 17, ../scss/pages/_price.scss */
 .page-price .block-price .block-content .table .block-first {
   -webkit-border-radius: 6px 6px 0 0;
   -moz-border-radius: 6px 6px 0 0;
   border-radius: 6px 6px 0 0;
 }
-/* line 21, ../scss/pages/_price.scss */
+/* line 22, ../scss/pages/_price.scss */
 .page-price .block-price .block-content .table .block-last {
   -webkit-border-radius: 0 0 6px 6px;
   -moz-border-radius: 0 0 6px 6px;
   border-radius: 0 0 6px 6px;
 }
-/* line 26, ../scss/pages/_price.scss */
+/* line 27, ../scss/pages/_price.scss */
 .page-price .block-price .block-content .table td {
-  border-top: 1px solid #D8D8D8;
+  border-top: 1px solid #d8d8d8;
 }
-/* line 29, ../scss/pages/_price.scss */
+/* line 30, ../scss/pages/_price.scss */
 .page-price .block-price .block-content .table th {
   background: #fff;
-  border-bottom: 1px solid #D8D8D8;
+  border-bottom: 1px solid #d8d8d8;
   border-top: 0;
 }
-/* line 35, ../scss/pages/_price.scss */
+/* line 36, ../scss/pages/_price.scss */
 .page-price .block-price .block-content .table thead p {
   color: #000;
   font-size: 17px;
   font-family: Circular;
   font-weight: 300;
 }
-/* line 41, ../scss/pages/_price.scss */
+/* line 42, ../scss/pages/_price.scss */
 .page-price .block-price .block-content .table thead th {
   width: 33.3%;
   text-align: center;
 }
-/* line 44, ../scss/pages/_price.scss */
+/* line 45, ../scss/pages/_price.scss */
 .page-price .block-price .block-content .table thead th img {
   margin: 50px auto 30px;
 }
-/* line 49, ../scss/pages/_price.scss */
+/* line 50, ../scss/pages/_price.scss */
 .page-price .block-price .block-content .table tbody {
   font-weight: 300;
 }
-/* line 52, ../scss/pages/_price.scss */
+/* line 53, ../scss/pages/_price.scss */
 .page-price .block-price .block-content .table tbody .txt-purple {
   color: #8b4de5;
   font-size: 20px;
 }
-/* line 57, ../scss/pages/_price.scss */
+/* line 58, ../scss/pages/_price.scss */
 .page-price .block-price .block-content .table tbody td .wrapper {
   display: table;
   width: 100%;
 }
-/* line 60, ../scss/pages/_price.scss */
+/* line 61, ../scss/pages/_price.scss */
 .page-price .block-price .block-content .table tbody td .wrapper > i {
   padding-top: 15px;
 }
-/* line 63, ../scss/pages/_price.scss */
+/* line 64, ../scss/pages/_price.scss */
 .page-price .block-price .block-content .table tbody td .wrapper > * {
   display: table-cell;
   padding: 10px;
   vertical-align: top;
 }
-/* line 69, ../scss/pages/_price.scss */
+/* line 70, ../scss/pages/_price.scss */
 .page-price .block-price .block-content .table tbody td span {
   display: block;
   margin-bottom: 10px;
 }
-/* line 73, ../scss/pages/_price.scss */
+/* line 74, ../scss/pages/_price.scss */
 .page-price .block-price .block-content .table tbody td li {
   margin-bottom: 10px;
 }
-/* line 76, ../scss/pages/_price.scss */
+/* line 77, ../scss/pages/_price.scss */
 .page-price .block-price .block-content .table tbody td .price {
   padding: 50px 0 20px;
   text-align: center;
 }
-/* line 79, ../scss/pages/_price.scss */
-.page-price .block-price .block-content .table tbody td .price .sign {
+/* line 80, ../scss/pages/_price.scss */
+.page-price .block-price .block-content .table tbody td .price p {
+  margin: 0;
+  /* /AVG: */
+}
+/* line 83, ../scss/pages/_price.scss */
+.page-price .block-price .block-content .table tbody td .price p .sign {
+  /* $: */
+  opacity: 0.67;
   font-size: 36px;
-  opacity: 0.76;
-  color: purple;
+  color: #6502b1;
+  letter-spacing: 0;
+  line-height: 62.4px;
 }
-/* line 84, ../scss/pages/_price.scss */
-.page-price .block-price .block-content .table tbody td .price .number {
-  font-size: 83px;
-  color: purple;
+/* line 94, ../scss/pages/_price.scss */
+.page-price .block-price .block-content .table tbody td .price p .number {
   line-height: 0.1;
+  /* 6000: */
+  font-weight: bold;
+  font-size: 83.2px;
+  color: #6502b1;
+  letter-spacing: 0;
 }
-/* line 89, ../scss/pages/_price.scss */
-.page-price .block-price .block-content .table tbody td .price .time {
-  font-size: 13px;
+/* line 105, ../scss/pages/_price.scss */
+.page-price .block-price .block-content .table tbody td .price p .time {
   font-weight: 700;
-  opacity: 0.75;
-  color: purple;
+  opacity: 0.67;
+  font-size: 13px;
+  color: #6502b1;
+  letter-spacing: 3.12px;
 }
-/* line 95, ../scss/pages/_price.scss */
+/* line 115, ../scss/pages/_price.scss */
 .page-price .block-price .block-content .table tbody td .price span {
   display: inline-block;
   margin-bottom: 0;
 }
-/* line 100, ../scss/pages/_price.scss */
+/* line 120, ../scss/pages/_price.scss */
 .page-price .block-price .block-content .table tbody td .note {
   display: block;
   font-family: Lato;
   font-size: 14px;
   color: #8b4de5;
 }
-/* line 111, ../scss/pages/_price.scss */
+/* line 131, ../scss/pages/_price.scss */
 .page-price .block-price .block-content .table-striped tbody tr:nth-of-type(odd) {
   background-color: rgba(216, 216, 216, 0.19);
 }
-/* line 114, ../scss/pages/_price.scss */
+/* line 134, ../scss/pages/_price.scss */
+.page-price .block-price .block-content .table-striped tbody tr:nth-of-type(odd) .block-purple {
+  opacity: 1;
+}
+/* line 138, ../scss/pages/_price.scss */
 .page-price .block-price .block-content .table-striped tbody tr:last-child {
   background-color: #fff;
 }
-/* line 121, ../scss/pages/_price.scss */
+/* line 140, ../scss/pages/_price.scss */
+.page-price .block-price .block-content .table-striped tbody tr:last-child .block-purple {
+  opacity: 0.9;
+}
+/* line 148, ../scss/pages/_price.scss */
 .page-price .block-trial {
   padding: 70px 15px 0;
 }
-/* line 123, ../scss/pages/_price.scss */
+/* line 150, ../scss/pages/_price.scss */
+.page-price .block-trial .block-heading .txt-lg {
+  /* Start Your Free 15 D: */
+  font-family: Circular;
+  font-size: 48px;
+  color: #343146;
+  letter-spacing: -2.5px;
+  line-height: 49px;
+  font-weight: 700;
+}
+/* line 162, ../scss/pages/_price.scss */
 .page-price .block-trial .txt-lg,
 .page-price .block-trial .txt-sm {
   margin-bottom: 30px;
 }
-/* line 127, ../scss/pages/_price.scss */
+/* line 166, ../scss/pages/_price.scss */
 .page-price .block-trial .col-left {
   padding-top: 60px;
 }
-/* line 133, ../scss/pages/_price.scss */
+/* line 170, ../scss/pages/_price.scss */
+.page-price .block-faq {
+  margin-bottom: 150px;
+}
+/* line 173, ../scss/pages/_price.scss */
 .page-price .block-faq .block-heading .txt-lg {
   text-align: center;
   font-size: 35px;
 }
-/* line 139, ../scss/pages/_price.scss */
+/* line 179, ../scss/pages/_price.scss */
 .page-price .block-faq .block-content .q-and-a {
   margin-bottom: 40px;
 }
-/* line 142, ../scss/pages/_price.scss */
+/* line 182, ../scss/pages/_price.scss */
 .page-price .block-faq .block-content .question {
   font-family: Circular;
   font-weight: 500;
   font-size: 21px;
-  color: #6502B1;
+  color: #6502b1;
   letter-spacing: -1px;
   line-height: 25px;
 }
-/* line 150, ../scss/pages/_price.scss */
+/* line 190, ../scss/pages/_price.scss */
 .page-price .block-faq .block-content .answer {
   font-family: Lato;
   font-weight: 400;
   font-size: 16px;
-  color: #4A4263;
+  color: #4a4263;
   letter-spacing: -0.05px;
   line-height: 25px;
 }
-/* line 160, ../scss/pages/_price.scss */
+/* line 200, ../scss/pages/_price.scss */
 .page-price footer {
-  background: #231D35;
+  background: #231d35;
   padding: 80px 15px 120px;
 }
-/* line 163, ../scss/pages/_price.scss */
+/* line 203, ../scss/pages/_price.scss */
 .page-price footer .inner-wrapper {
   width: 100%;
   max-width: 900px;
   padding: 0 15px;
   margin: auto;
 }
-/* line 168, ../scss/pages/_price.scss */
+/* line 208, ../scss/pages/_price.scss */
 .page-price footer .inner-wrapper .block-logo {
   text-align: center;
   margin-bottom: 40px;
   margin-top: -125px;
 }
-/* line 173, ../scss/pages/_price.scss */
+/* line 213, ../scss/pages/_price.scss */
 .page-price footer .inner-wrapper ul {
   display: flex;
   display: -webkit-flex;
   align-content: space-between;
   padding: 0;
 }
-/* line 178, ../scss/pages/_price.scss */
+/* line 218, ../scss/pages/_price.scss */
 .page-price footer .inner-wrapper ul li {
   flex: 1;
   list-style-type: none;
@@ -11735,11 +11770,11 @@ header nav li.btn {
   font-size: 16px;
   text-align: center;
 }
-/* line 185, ../scss/pages/_price.scss */
+/* line 225, ../scss/pages/_price.scss */
 .page-price footer .inner-wrapper ul li * {
   color: #fff;
 }
-/* line 190, ../scss/pages/_price.scss */
+/* line 230, ../scss/pages/_price.scss */
 .page-price footer .inner-wrapper .copyright {
   margin-top: 50px;
   opacity: 0.56;
@@ -11747,7 +11782,7 @@ header nav li.btn {
   font-weight: 500;
   text-align: center;
   font-size: 14px;
-  color: #FFFFFF;
+  color: #fff;
   letter-spacing: 0;
   line-height: 20px;
 }
