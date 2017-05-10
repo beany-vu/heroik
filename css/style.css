@@ -10622,7 +10622,7 @@ header nav li.link.current a:after, header nav li.link:hover a:after {
   left: 15px;
   right: 15px;
   height: 4px;
-  background: #7A34D1;
+  background: #7a34d1;
 }
 /* line 28, ../scss/blocks/_header.scss */
 header nav li.link a {
@@ -10636,6 +10636,9 @@ header nav li.link a {
 /* line 37, ../scss/blocks/_header.scss */
 header nav li.btn {
   margin-bottom: 0;
+  font-size: 17px;
+  padding: 7px 19px;
+  border-radius: 20px;
 }
 
 /* line 1, ../scss/blocks/_hero.scss */
@@ -10697,7 +10700,7 @@ header nav li.btn {
   font-family: Circular;
   font-weight: 500;
   font-size: 26px;
-  color: #A4A7BF;
+  color: #a4a7bf;
   letter-spacing: -1.1px;
   line-height: 28px;
 }
@@ -10717,9 +10720,9 @@ header nav li.btn {
   font-family: Circular;
   font-weight: 300;
   font-size: 17px;
-  color: #000000;
+  color: #4a4263;
   letter-spacing: -0.4px;
-  line-height: 19px;
+  line-height: 27px;
 }
 
 /* line 1, ../scss/blocks/_slider.scss */
@@ -11800,32 +11803,27 @@ header nav li.btn {
 .page-landing header nav li a {
   color: #fff;
 }
-/* line 17, ../scss/pages/_landing.scss */
-.page-landing .site-content {
-  background: url(../images/landing-bg.png) no-repeat;
-  background-size: cover;
-}
-/* line 21, ../scss/pages/_landing.scss */
+/* line 18, ../scss/pages/_landing.scss */
 .page-landing .site-content:after {
   content: '';
   display: table;
   clear: both;
 }
-/* line 25, ../scss/pages/_landing.scss */
+/* line 22, ../scss/pages/_landing.scss */
 .page-landing .block-typcial {
   position: relative;
   z-index: 1;
 }
-/* line 28, ../scss/pages/_landing.scss */
+/* line 25, ../scss/pages/_landing.scss */
 .page-landing .block-typcial .txt-md,
 .page-landing .block-typcial .txt-lg {
   margin-bottom: 20px;
 }
-/* line 32, ../scss/pages/_landing.scss */
+/* line 29, ../scss/pages/_landing.scss */
 .page-landing .block-typcial .txt-sm {
   margin-bottom: 50px;
 }
-/* line 36, ../scss/pages/_landing.scss */
+/* line 33, ../scss/pages/_landing.scss */
 .page-landing .col-left,
 .page-landing .col-right {
   width: 100%;
@@ -11833,7 +11831,7 @@ header nav li.btn {
   float: left;
   min-height: 100vh;
 }
-/* line 43, ../scss/pages/_landing.scss */
+/* line 40, ../scss/pages/_landing.scss */
 .page-landing .col-left {
   padding: 40px;
   position: relative;
@@ -11842,7 +11840,7 @@ header nav li.btn {
   align-items: center;
   max-width: 30%;
 }
-/* line 50, ../scss/pages/_landing.scss */
+/* line 47, ../scss/pages/_landing.scss */
 .page-landing .col-left:after {
   content: "";
   position: absolute;
@@ -11857,7 +11855,9 @@ header nav li.btn {
   -o-transform: skew(-15deg);
   transform: skew(-15deg);
 }
-/* line 65, ../scss/pages/_landing.scss */
+/* line 62, ../scss/pages/_landing.scss */
 .page-landing .col-right {
+  background: url(../images/landing-bg.png) no-repeat;
+  background-size: cover;
   max-width: 70%;
 }

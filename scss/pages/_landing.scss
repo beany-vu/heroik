@@ -15,9 +15,6 @@
         }
     }
     .site-content {
-        background      : url(../images/landing-bg.png) no-repeat;
-        background-size : cover;
-
         &:after {
             @include clearfix;
         }
@@ -63,7 +60,8 @@
         }
     }
     .col-right {
-        max-width : 70%;
-
+        background      : url(../images/landing-bg.png) no-repeat;
+        background-size : cover;
+        max-width       : 70%;
     }
 }
